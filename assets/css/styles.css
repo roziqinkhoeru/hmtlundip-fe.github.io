@@ -1030,6 +1030,26 @@ header .body__section {
     margin-top: 24px;
 }
 
+.askara__section .body__section {
+    margin: var(--m-lg);
+}
+
+.askara__section .body__section img {
+    margin-bottom: 48px;
+}
+
+.chief__section {
+    margin: var(--m-lg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chief__content h5,
+.chief__content p {
+    color: var(--white);
+}
+
 /*Biro Teknik Lingkungan*/
 /*Unit Kegiatan Mahasiswa*/
 /*******************************************/
