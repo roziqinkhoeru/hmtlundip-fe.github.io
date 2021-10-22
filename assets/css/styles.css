@@ -1069,7 +1069,7 @@ header .body__section {
 }
 
 .chief__section {
-    margin: var(--m-lg);
+    margin-top: var(--mb-lg);
 
     background-repeat: no-repeat !important;
     background-position: center !important;
@@ -1108,6 +1108,35 @@ header .body__section {
     padding: 0 18px;
 
     color: var(--light);
+}
+
+.chief__break {
+    display: none;
+}
+
+.vimi__section {
+    padding: var(--m-lg);
+    background-color: var(--light);
+}
+
+.vimi__section .body__section h3 {
+    margin-bottom: 36px !important;
+}
+
+.visi__point {
+    font-size: 24px;
+    width: 80%;
+}
+
+.misi__point {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 24px;
+}
+
+.misi__point i {
+    font-size: 32px;
+    margin-right: 36px;
 }
 
 /*Biro Teknik Lingkungan*/
@@ -1845,6 +1874,10 @@ header .body__section {
         font-size: 24px;
     }
 
+    .visi__point {
+        font-size: 20px;
+    }
+
     /*******************************************/
     /*               BERITA PAGE               */
     /*******************************************/
@@ -2169,8 +2202,37 @@ header .body__section {
         font-size: 14px;
     }
 
-    .chief__section .row .col-md-6.col-sm-12:nth-child(1) {
+    .chief__break {
+        display: block;
+
+        width: 85%;
+        margin: 0 auto;
+
+        border: 1px solid var(--light);
+    }
+
+    .visi {
+        text-align: center;
         margin-bottom: 60px;
+    }
+
+    .visi__point {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .misi h3 {
+        text-align: center;
+    }
+
+    .visi,
+    .misi {
+        padding: 0 12px;
+    }
+
+    .misi__point i {
+        font-size: 32px;
+        margin-right: 20px;
     }
 
     /*******************************************/
