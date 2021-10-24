@@ -1139,6 +1139,29 @@ header .body__section {
     margin-right: 36px;
 }
 
+.ubid__section {
+    margin: var(--m-lg);
+}
+
+.ubid__point__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.6);
+}
+
+.ubid__point__head p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.ubid__point__head i {
+    font-size: 36px;
+    display: flex;
+}
+
 /*Biro Teknik Lingkungan*/
 /*Unit Kegiatan Mahasiswa*/
 /*******************************************/
@@ -1877,6 +1900,14 @@ header .body__section {
     .visi__point {
         font-size: 20px;
     }
+    
+    .ubid__point__head p {
+        font-size: 18px;
+    }
+    
+    .ubid__point__head i {
+        font-size: 30px;
+    }
 
     /*******************************************/
     /*               BERITA PAGE               */
@@ -2233,6 +2264,22 @@ header .body__section {
     .misi__point i {
         font-size: 32px;
         margin-right: 20px;
+    }
+
+    .ubid__body {
+        padding: 0 12px;
+    }
+    
+    .ubid__point__head p {
+        font-size: 16px;
+    }
+    
+    .ubid__point__head i {
+        font-size: 24px;
+    }
+
+    .ubid__point__body p {
+        font-size: 14px;
     }
 
     /*******************************************/
