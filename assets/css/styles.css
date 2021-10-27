@@ -2278,8 +2278,13 @@ header .body__section {
         font-size: 24px;
     }
 
-    .ubid__point__body p {
+    .ubid__point__body p,
+    .ubid__point__body ol li {
         font-size: 14px;
+    }
+
+    .ubid__point__body .subtitle__point {
+        font-size: 16px;
     }
 
     /*******************************************/
