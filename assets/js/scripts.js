@@ -134,6 +134,30 @@ $(document).ready(function() {
 	});
 });
 
+// hmtl - proker
+$(document).ready(function() {
+	$('.owl-carousel#proker-content').owlCarousel({
+		loop:true,
+		margin:16,
+		nav:false,
+		dots:false,
+		autoplay:true,
+		autoplayTimeout:4800,
+		smartSpeed:1000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+	            items:2
+	        },
+	        1000:{
+	            items:4
+	        }
+	    }
+	});
+});
+
 // contact - social media section
 $(document).ready(function() {
 	$('.owl-carousel#socmed-content').owlCarousel({
