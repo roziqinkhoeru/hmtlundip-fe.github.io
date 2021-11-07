@@ -131,9 +131,18 @@ h6 {
     padding-bottom: 30px;
 }
 
+.text-just {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+
 /* color main bold */
 .text-dark2 {
     color: var(--dark2);
+}
+
+.text-green1 {
+    color: var(--green1);
 }
 
 /**********************/
@@ -1224,6 +1233,42 @@ header .body__section {
 }
 
 /*Biro Teknik Lingkungan*/
+.biro__section .body__section {
+    padding: var(--m-lg);
+}
+
+.biro__content {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.biro__content:first-child {
+    margin-top: 0;
+}
+
+.biro__content:last-child {
+    margin-bottom: 0;
+}
+
+.my__subttl {
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.img__biro {
+    width: 100%;
+}
+
+.icon__biro i {
+    font-size: 36px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    transition: all .4s ease;
+}
+
+.icon__biro i:hover {
+    color: var(--green1);
+}
 
 /*Unit Kegiatan Mahasiswa*/
 
@@ -1945,6 +1990,8 @@ header .body__section {
         font-size: 30px;
     }
 
+    /* Biro Teknik Lingkungan */
+
     /*******************************************/
     /*               BERITA PAGE               */
     /*******************************************/
@@ -2309,6 +2356,22 @@ header .body__section {
 
     .ubid__point__body .subtitle__point {
         font-size: 16px;
+    }
+
+    /* Biro Teknik Lingkungan */
+    .biro__content {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .biro__content .proker__biro {
+        margin-bottom: 36px;
+    }
+
+    .img__biro {
+        display: block;
+        width: 75%;
+        margin: auto;
     }
 
     /*******************************************/

@@ -158,6 +158,78 @@ $(document).ready(function() {
 	});
 });
 
+// hmtl - proker - ksl
+$(document).ready(function() {
+	$('.owl-carousel#ksl').owlCarousel({
+		loop:false,
+		margin:16,
+		nav:false,
+		dots:false,
+		autoplay:true,
+		autoplayTimeout:4800,
+		smartSpeed:1000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+	            items:2
+	        },
+	        1000:{
+	            items:2
+	        }
+	    }
+	});
+});
+
+// hmtl - proker - ipal
+$(document).ready(function() {
+	$('.owl-carousel#ipal').owlCarousel({
+		loop:false,
+		margin:16,
+		nav:false,
+		dots:false,
+		autoplay:true,
+		autoplayTimeout:4800,
+		smartSpeed:1000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+	            items:2
+	        },
+	        1000:{
+	            items:2
+	        }
+	    }
+	});
+});
+
+// hmtl - proker - hn
+$(document).ready(function() {
+	$('.owl-carousel#hn').owlCarousel({
+		loop:false,
+		margin:16,
+		nav:false,
+		dots:false,
+		autoplay:true,
+		autoplayTimeout:4800,
+		smartSpeed:1000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+	            items:2
+	        },
+	        1000:{
+	            items:2
+	        }
+	    }
+	});
+});
+
 // contact - social media section
 $(document).ready(function() {
 	$('.owl-carousel#socmed-content').owlCarousel({
