@@ -510,9 +510,9 @@ footer .container {
 /* Header */
 header,
 .img__sec {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
 }
 
 .header__dashboard {
@@ -1085,10 +1085,6 @@ header .body__section {
 
 .chief__section {
     margin-top: var(--mb-lg);
-
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: cover !important;
 }
 
 .chief__content {
@@ -1114,9 +1110,6 @@ header .body__section {
     margin-bottom: 36px;
 
     border-radius: 50%;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: cover !important;
 }
 
 .chief__icon i {
@@ -1167,6 +1160,21 @@ header .body__section {
     margin-right: 36px;
 }
 
+.struktur__section .body__section {
+    margin: var(--m-lg);
+}
+
+.struktur__img {
+    padding: 24px;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 10%),
+        0 0 20px 0 rgb(0 0 0 / 12%);
+    border-radius: var(--md-rad);
+}
+
+.struktur__section img {
+    width: 100%;
+}
+
 .ubid__section {
     margin: var(--m-lg);
 }
@@ -1197,7 +1205,8 @@ header .body__section {
     margin-left: 12px;
 }
 
-.card__proker {
+.card__proker ,
+.member__card {
     border: 1px solid var(--blight);
     border-radius: var(--md-rad);
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 8%),
@@ -1230,6 +1239,45 @@ header .body__section {
 
 .main__proker {
     padding: 24px;
+}
+
+.member__card {
+    max-width: 360px;
+    transition: all .4s ease;
+}
+
+.member__card:hover {
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 10%),
+        0 4px 20px 0 rgb(0 0 0 / 15%);
+        transform: translateY(-10px);
+}
+
+#ketua-bidang {
+    transition: all .4s ease;
+}
+
+.member__card:hover #ketua-bidang {
+    background-color: var(--dark2);
+}
+
+.member__card:hover #ketua-bidang p {
+    color: var(--white);
+}
+
+.member__card .img__sec {
+    width: 100%;
+    height: 300px;
+    border-radius: var(--md-rad) var(--md-rad) 0 0;
+}
+
+.content__memcard {
+    padding: 24px;
+    text-align: center;
+    border-radius: 0 0 var(--md-rad) var(--md-rad);
+}
+
+.content__memcard p {
+    margin-bottom: 3px;
 }
 
 /*Biro Teknik Lingkungan*/
@@ -1349,9 +1397,6 @@ header .body__section {
 
     border-radius: 6px 6px 0 0;
     background-color: grey;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .course__content {

@@ -158,7 +158,31 @@ $(document).ready(function() {
 	});
 });
 
-// hmtl - proker - ksl
+// hmtl - member
+$(document).ready(function() {
+	$('.owl-carousel#member-content').owlCarousel({
+		loop:true,
+		margin:16,
+		nav:false,
+		dots:false,
+		autoplay:true,
+		autoplayTimeout:6000,
+		smartSpeed:1000,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+	            items:2
+	        },
+	        1000:{
+	            items:4
+	        }
+	    }
+	});
+});
+
+// biro - proker - ksl
 $(document).ready(function() {
 	$('.owl-carousel#ksl').owlCarousel({
 		loop:false,
@@ -182,7 +206,7 @@ $(document).ready(function() {
 	});
 });
 
-// hmtl - proker - ipal
+// biro - proker - ipal
 $(document).ready(function() {
 	$('.owl-carousel#ipal').owlCarousel({
 		loop:false,
@@ -206,7 +230,7 @@ $(document).ready(function() {
 	});
 });
 
-// hmtl - proker - hn
+// biro - proker - hn
 $(document).ready(function() {
 	$('.owl-carousel#hn').owlCarousel({
 		loop:false,
