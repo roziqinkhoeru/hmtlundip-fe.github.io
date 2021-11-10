@@ -182,10 +182,18 @@ $(document).ready(function() {
 	});
 });
 
+// medium zoom struktur organisasi
+mediumZoom('.med__zoom', {
+	margin: 20,
+	// background: 'rgba(0, 0, 0, 1)',
+	background: 'rgba(255, 255, 255, 1)',
+	scrollOffset: 200
+})
+
 // biro - proker - ksl
 $(document).ready(function() {
 	$('.owl-carousel#ksl').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:16,
 		nav:false,
 		dots:false,
@@ -209,7 +217,7 @@ $(document).ready(function() {
 // biro - proker - ipal
 $(document).ready(function() {
 	$('.owl-carousel#ipal').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:16,
 		nav:false,
 		dots:false,
@@ -233,7 +241,7 @@ $(document).ready(function() {
 // biro - proker - hn
 $(document).ready(function() {
 	$('.owl-carousel#hn').owlCarousel({
-		loop:false,
+		loop:true,
 		margin:16,
 		nav:false,
 		dots:false,

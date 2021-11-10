@@ -1171,7 +1171,7 @@ header .body__section {
     border-radius: var(--md-rad);
 }
 
-.struktur__section img {
+.struktur__section .med__zoom {
     width: 100%;
 }
 
