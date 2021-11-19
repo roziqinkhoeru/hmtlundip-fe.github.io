@@ -1321,34 +1321,28 @@ header .body__section {
 }
 
 /*Unit Kegiatan Mahasiswa*/
-.seni__section .body__section {
-    padding: var(--m-lg);
-}
 .ukm__seni__content,
 .ukm__olahraga__content{
     padding-top: 80px;
     padding-bottom: 80px;
 }
-/* .olahraga__section .body__section {
+.seni__section{
     padding: var(--m-lg);
-} */
+}
 .olahraga__section{
     padding-top: 112px;
 }
-.olahraga__section .olahraga:nth-of-type(odd){
+.olahraga__section .olahraga:nth-of-type(odd),
+.seni__section .seni:nth-of-type(odd){
         background: var(--light);
 }
-
-
 .chief__UKM {
     margin-bottom: 60px;
 }
-
 .list__latihan,
 .list__pencapaian {
     list-style: disc;
 }
-
 .icon__jadwal {
     font-size: xx-small;
 }
