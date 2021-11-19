@@ -684,8 +684,7 @@ header .body__section {
     box-shadow: 0 0 1px rgb(0 0 0 / 10%),
         0 4px 20px rgb(0 0 0 / 15%);
 }
-
-.news__card__img {
+.news__card__img{
     position: relative;
 
     overflow: hidden;
@@ -693,6 +692,7 @@ header .body__section {
     width: 100%;
     height: 240px;
 }
+
 
 .news__card__img .img__sec {
     width: 100%;
@@ -1206,7 +1206,8 @@ header .body__section {
 }
 
 .card__proker ,
-.member__card {
+.member__card,
+.card__foto__ukm {
     border: 1px solid var(--blight);
     border-radius: var(--md-rad);
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 8%),
@@ -1319,8 +1320,55 @@ header .body__section {
 }
 
 /*Unit Kegiatan Mahasiswa*/
+.seni__section .body__section {
+    padding: var(--m-lg);
+}
+.olahraga__section .body__section {
+    padding: var(--m-lg);
+}
+.chief__UKM{
+    margin-bottom: 60px;
+}
+.list__latihan,
+.list__pencapaian{
+    list-style: disc;
+}
+.icon__jadwal{
+    font-size: xx-small;
+}
+.foto__ukm{
+    margin-bottom: 36px;
+}
+.ukm__card__img{
+    position: relative;
 
+    overflow: hidden;
 
+    width: 100%;
+    height: 300px;
+}
+.ukm__card__img .img__sec {
+    width: 100%;
+    height: 100%;
+
+    transition: all .6s ease;
+}
+
+.ukm__seni__content,
+.ukm__olahraga__content {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.ukm__seni__content:first-child,
+.ukm__olahraga__content:first-child {
+    margin-top: 0;
+}
+
+.ukm__seni__content:last-child,
+.ukm__olahraga__content:last-child {
+    margin-bottom: 0;
+}
 /*******************************************/
 /*               BERITA PAGE               */
 /*******************************************/
