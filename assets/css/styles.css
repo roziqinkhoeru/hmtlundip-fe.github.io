@@ -1810,7 +1810,7 @@ header .body__section {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .list__latihan,
     .list__pencapaian {
         margin: 10px 0;
@@ -2502,7 +2502,7 @@ header .body__section {
     /* Unit Kegiatan Mahasiswa  */
     .list__latihan,
     .list__pencapaian {
-        margin: 10px 3rem;
+        margin: 10px 0;
     }
 
     /*******************************************/
