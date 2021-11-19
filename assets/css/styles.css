@@ -1324,10 +1324,21 @@ header .body__section {
 .seni__section .body__section {
     padding: var(--m-lg);
 }
-
-.olahraga__section .body__section {
-    padding: var(--m-lg);
+.ukm__seni__content,
+.ukm__olahraga__content{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+/* .olahraga__section .body__section {
+    padding: var(--m-lg);
+} */
+.olahraga__section{
+    padding-top: 112px;
+}
+.olahraga__section .olahraga:nth-of-type(odd){
+        background: var(--light);
+}
+
 
 .chief__UKM {
     margin-bottom: 60px;
