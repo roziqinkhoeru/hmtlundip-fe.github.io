@@ -1339,8 +1339,13 @@ header .body__section {
 .chief__UKM {
     margin-bottom: 60px;
 }
+.ketua__ukm,
+.penanggung__ukm{
+    margin: 10px 0;
+}
 .list__latihan,
 .list__pencapaian {
+    margin: 10px 3rem;
     list-style: disc;
 }
 .icon__jadwal {
@@ -1805,6 +1810,12 @@ header .body__section {
     }
 }
 
+@media (max-width: 768px) {
+    .list__latihan,
+    .list__pencapaian {
+        margin: 10px 0;
+    }
+}
 
 /*=============== tablet view ===============*/
 @media screen and (max-width: 991px) {
@@ -2486,6 +2497,12 @@ header .body__section {
         display: block;
         width: 75%;
         margin: auto;
+    }
+
+    /* Unit Kegiatan Mahasiswa  */
+    .list__latihan,
+    .list__pencapaian {
+        margin: 10px 3rem;
     }
 
     /*******************************************/
