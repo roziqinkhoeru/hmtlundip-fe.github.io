@@ -1820,6 +1820,10 @@ header .body__section {
         flex: 0 0 auto;
         width: 66.66666667%;
     }
+    .pencapaian__col{
+        flex: 0 0 auto;
+        width: 100%;
+    }
 }
 
 /*=============== tablet view ===============*/
