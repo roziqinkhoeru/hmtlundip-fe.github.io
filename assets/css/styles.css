@@ -1809,11 +1809,16 @@ header .body__section {
         padding: 0 26vw;
     }
 }
-
 @media (max-width: 1200px) {
     .list__latihan,
     .list__pencapaian {
         margin: 10px 0;
+    }
+}
+@media (max-width: 426px){
+    .latihan__col{
+        flex: 0 0 auto;
+        width: 66.66666667%;
     }
 }
 
