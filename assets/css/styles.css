@@ -56,7 +56,7 @@
     /*utility-radius*/
     --sm-rad: 3px;
     --md-rad: 6px;
-    --lg-rad: 16px;
+    --lg-rad: 12px;
 }
 
 
@@ -143,6 +143,18 @@ h6 {
 
 .text-green1 {
     color: var(--green1);
+}
+
+.text_light {
+    color: var(--light) !important;
+}
+
+.lg-rad {
+    border-radius: var(--lg-rad) !important;
+}
+
+.bg_dark {
+    background-color: var(--dark);
 }
 
 /**********************/
@@ -588,7 +600,7 @@ header .body__section {
     margin: 0 auto;
     padding: 48px 100px;
 
-    border-radius: var(--md-rad);
+    border-radius: var(--lg-rad);
     background-color: var(--dark);
     box-shadow: 0 0 1px rgb(0 0 0 / 20%),
         0 6px 20px rgb(0 0 0 / 30%);
@@ -628,7 +640,7 @@ header .body__section {
 
 .about__card {
     padding: 8px 24px;
-
+    border-radius: var(--lg-rad);
     transition: all .4s ease;
 }
 
@@ -675,6 +687,7 @@ header .body__section {
 .news__card {
     cursor: pointer;
     transition: all .4s ease;
+    border-radius: var(--lg-rad);
 
     box-shadow: 0 0 1px rgb(0 0 0 / 5%),
         0 3px 15px rgb(0 0 0 / 10%);
@@ -692,6 +705,7 @@ header .body__section {
 
     width: 100%;
     height: 240px;
+    border-radius: var(--lg-rad) var(--lg-rad) 0 0;
 }
 
 
@@ -905,7 +919,7 @@ header .body__section {
     color: rgba(255, 255, 255, .2);
 }
 
-.submit-message {
+.submit__message {
     font-weight: 600;
 
     width: 100%;
@@ -915,11 +929,11 @@ header .body__section {
 
     color: var(--black);
     border: none;
-    border-radius: var(--sm-rad);
+    border-radius: var(--md-rad);
     background-color: var(--green2);
 }
 
-.submit-message:hover {
+.submit__message:hover {
     font-weight: 500;
 
     color: var(--white);
@@ -1007,6 +1021,7 @@ header .body__section {
 
     width: 100%;
     height: 120px;
+    border-radius: var(--lg-rad);
 }
 
 .img__linkfil .img__sec {
@@ -1207,8 +1222,7 @@ header .body__section {
 }
 
 .card__proker,
-.member__card,
-.card__foto__ukm {
+.member__card {
     border: 1px solid var(--blight);
     border-radius: var(--md-rad);
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 8%),
@@ -1329,12 +1343,19 @@ header .body__section {
 .seni__section{
     padding: var(--m-lg);
 }
+
+.card__foto__ukm {
+    border-radius: var(--lg-rad);
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 8%),
+        0 0 20px 0 rgb(0 0 0 / 8%);
+}
+
 .olahraga__section{
     padding-top: 112px;
 }
-.olahraga__section .olahraga:nth-of-type(odd),
-.seni__section .seni:nth-of-type(odd){
-        background: var(--light);
+.olahraga__section .olahraga:nth-of-type(even),
+.seni__section .seni:nth-of-type(even){
+    background: var(--light);
 }
 .chief__UKM {
     margin-bottom: 60px;
@@ -1806,7 +1827,8 @@ header .body__section {
     }
 
     .navbar.nav__pt__pb {
-        padding: 0 26vw;
+        max-width: 1440px;
+        margin: auto;
     }
 }
 @media (max-width: 1200px) {
