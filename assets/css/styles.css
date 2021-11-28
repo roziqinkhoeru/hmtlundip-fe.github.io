@@ -1413,7 +1413,179 @@ header .body__section {
 /*******************************************/
 /*               BERITA PAGE               */
 /*******************************************/
+.berita-terkini-content{
+    
+}
+.item__berita__terkini{
+    /* box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.36);     */
 
+}
+.berita__terkini__section{
+    padding: var(--m-lg);
+}
+.berita__terkini__body {
+    margin-bottom: 20px;
+}
+.left__berita__terkini {
+    flex: 58.3%;
+}
+.left__berita__terkini .img__sec {
+    width: 100%;
+    
+    max-height: 650px;
+    height: 100%;
+    border-radius: 0 !important;
+}
+.right__berita__terkini {
+    padding: 0 36px;
+
+    flex: 41.6%;
+}
+.right__berita__terkini__title {
+    margin-bottom: 9px;
+}
+.right__berita__terkini__title {
+    font-size: 25px;
+    font-weight: 700;
+
+    display: block;
+
+    margin-bottom: 18px;
+
+    transition: all .4s ease;
+}
+
+.right__berita__terkini__title:hover {
+    transform: translateX(6px);
+
+    color: var(--green1);
+}
+
+/* info akademik */
+.berita__info__akademik, .berita__info__beasiswa {
+    transition: all .4s ease-in-out;
+}
+
+.berita__info__akademik:hover, .berita__info__beasiswa:hover {
+    transform: translateY(-6px);
+}
+.info__akademik__section, .info__beasiswa__section{
+    padding: var(--m-lg);
+}
+.info__beasiswa__section{
+    background-color: var(--light);
+}
+
+/* info akademik main */
+.title__info__akademik, .title__info__beasiswa{
+    margin-left: 0px !important;
+}
+.info__akademik__card, .info__beasiswa__card {
+    transition: all .3s ease;
+
+    height: 380px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
+        0 6px 15px rgb(0 0 0 / 8%);
+}
+
+.info__akademik__card:hover, .info__beasiswa__card:hover {
+    transition: all .3s ease;
+
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
+        0 6px 15px rgb(0 0 0 / 10%);
+}
+.info__akademik__photo, .info__beasiswa__photo {
+    width: 100%;
+    height: 200px;
+    
+    background-color: grey;
+}
+.info__akademik__content, .info__beasiswa__content {
+    display: flex;
+
+    /* padding: 0 40px 24px 0px  ; */
+
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.info__akademik__content p, .info__beasiswa__content p {
+    font-size: 12px;
+}
+
+.info__akademik__content h6, .info__beasiswa__content h6 {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+    -ms-hyphens: auto;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.info__akademik__card__content, .info__beasiswa__card__content{
+    padding: 10px 24px;
+}
+/* info akademik aside */
+.info__aside{
+    position:absolute;
+    padding: var(--m-lg);
+    align-items: flex-end;
+}
+.info__aside h5 {
+    margin: 1.5rem 0;
+}
+.icon__berita i {
+    font-size: 36px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    transition: all .4s ease;
+}
+
+.icon__berita i:hover {
+    color: var(--green1);
+}
+.info__akademik__link {
+    display: flex;
+
+    margin-bottom: 24px;
+    padding: 12px 18px;
+
+    color: var(--black);
+    background-color: var(--light);
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__akademik__link i {
+    transition: all .4s ease;
+}
+
+.info__akademik__link[aria-expanded='true'] .icon-down {
+    transform: rotate(180deg);
+}
+.thn__title {
+    font-weight: 600;
+}
+.tahun__cc {
+    transition: all .6s ease;
+    transition-delay: .2s;
+    
+    margin-bottom: 24px;
+    padding: 0px 18px;
+}
+.bulan__cc{
+    transition: all .4s ease-in-out;
+}
+
+.bulan__cc:hover {
+    transform: translateY(-6px);
+}
+.info__beasiswa__section{
+        padding: var(--m-lg);
+}
 /*********************************************/
 /*               KALENDER PAGE               */
 /*********************************************/
@@ -1837,6 +2009,10 @@ header .body__section {
     .list__pencapaian {
         margin: 10px 0;
     }
+    .info__akademik__card, .info__beasiswa__card {
+        height: 420px;
+    }
+
 }
 @media (max-width: 426px){
     .latihan__col{
@@ -1850,6 +2026,17 @@ header .body__section {
 }
 
 /*=============== tablet view ===============*/
+@media screen and (max-width: 767px) {
+    /*****************************************/
+    /*                BERITA                 */
+    /*****************************************/
+    .info__aside{
+        position:relative;
+    }
+    .info__akademik__card, .info__beasiswa__card {
+        max-height: 350px;
+    }
+}
 @media screen and (max-width: 991px) {
 
     /****************************************/
@@ -2540,7 +2727,40 @@ header .body__section {
     /*******************************************/
     /*               BERITA PAGE               */
     /*******************************************/
+    .berita__terkini__body {
+        flex-direction: column;
+    }
+    .left__berita__terkini {
+        flex: 100%;
+    }
 
+    .left__berita__terkini .img__sec {
+        height: 200px;
+    }
+    .right__berita__terkini {
+        padding: 0 36px;
+    }
+    .right__berita__terkini {
+        padding: 24px;
+
+        text-align: center;
+        ;
+
+        flex: 100%;
+    }
+    .right__berita__terkini__title {
+        font-size: 30px;
+    }
+    /* info section */
+    .info__akademik__photo, .info__beasiswa__photo {
+        height: 150px;
+    }
+    .info__body{
+        margin: 0px 0px;
+    }
+    .info__akademik__card, .info__beasiswa__card {
+        max-height: 300px;
+    }
     /*********************************************/
     /*               KALENDER PAGE               */
     /*********************************************/
