@@ -1462,14 +1462,14 @@ header .body__section {
 }
 
 /* info akademik */
-.berita__info__akademik, .berita__info__beasiswa {
+.berita__info__akademik, .berita__info__beasiswa, .berita__isi__berita {
     transition: all .4s ease-in-out;
 }
 
 .berita__info__akademik:hover, .berita__info__beasiswa:hover {
     transform: translateY(-6px);
 }
-.info__akademik__section, .info__beasiswa__section{
+.info__akademik__section, .info__beasiswa__section, .isi__berita__section{
     padding: var(--m-lg);
 }
 .info__beasiswa__section{
@@ -1477,13 +1477,13 @@ header .body__section {
 }
 
 /* info akademik main */
-.title__info__akademik, .title__info__beasiswa{
+.title__info__akademik, .title__info__beasiswa, .title__isi__berita{
     margin-left: 0px !important;
 }
 .info__akademik__card, .info__beasiswa__card {
     transition: all .3s ease;
 
-    height: 400px;
+    height: 420px;
     box-shadow: 0 0 1px rgb(0 0 0 / 10%),
         0 6px 15px rgb(0 0 0 / 8%);
 }
@@ -1511,7 +1511,10 @@ header .body__section {
 }
 
 .info__akademik__content p, .info__beasiswa__content p {
-    font-size: 12px;
+    font-size: 16px;
+}
+.akademik__card__title p{
+    font-size: 14px !important
 }
 
 .info__akademik__content h6, .info__beasiswa__content h6 {
@@ -1530,6 +1533,7 @@ header .body__section {
 /* info akademik aside */
 .info__aside{
     position:absolute;
+    position:fixed;
     padding: var(--m-lg);
     align-items: flex-end;
 }
@@ -1576,15 +1580,134 @@ header .body__section {
     margin-bottom: 24px;
     padding: 0px 18px;
 }
+.bulan__cc p{
+    margin: 5px 0;
+}
 .bulan__cc{
     transition: all .4s ease-in-out;
+    padding: auto 0;
 }
 
 .bulan__cc:hover {
-    transform: translateY(-6px);
+    /* transform: translateY(-6px); */
+    background-color: var(--light);
+    border-radius: 5px;
 }
 .info__beasiswa__section{
         padding: var(--m-lg);
+}
+/* ********  View Berita   ********* */
+.isi__berita__populer__aside{
+    margin-bottom:10px;
+}
+.keterangan__berita{
+    font-size: 13px;
+}
+.isi__berita__image{
+
+}
+.isi__berita__image__sec{
+    max-height: 800px !important;
+}
+.isi__berita__aside__sticky{
+    top: 50px;
+}
+.isi__berita__aside__content{
+    padding-left: 20px;
+}
+.berita__populer__card {
+    transition: all .3s ease;
+
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
+        0 6px 15px rgb(0 0 0 / 8%);
+}
+
+.berita__populer__card:hover {
+    transition: all .3s ease;
+
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
+        0 6px 15px rgb(0 0 0 / 10%);
+}
+
+.populer__card__title{
+    
+}
+.populer__card__title h6{
+    font-size: 16px !important;
+    margin: 0;
+    font-weight: 500;
+}
+.populer__photo{
+}
+.populer__photo__sec{
+    object-fit: cover;
+    height: 95px !important;
+}
+
+/* ********* Carousel berita terkait *********** */
+.berita__terkait__section{
+    background: var(--light);
+}
+.berita__terkait__section .body__section{
+    padding: var(--m-lg);
+}
+.berita__terkait__section .title__section{
+    margin: 0;
+}
+.berita__terkait__card {
+    cursor: pointer;
+    transition: all .4s ease;
+    border-radius: var(--lg-rad);
+
+    box-shadow: 0 0 1px rgb(0 0 0 / 5%),
+        0 3px 15px rgb(0 0 0 / 10%);
+}
+
+.berita__terkait__card:hover {
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
+        0 4px 20px rgb(0 0 0 / 15%);
+}
+
+.berita__terkait__card__img {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 240px;
+    border-radius: var(--lg-rad) var(--lg-rad) 0 0;
+}
+.berita__terkait__card__img .img__sec {
+    width: 100%;
+    height: 100%;
+
+    transition: all .6s ease;
+}
+
+.berita__terkait__card:hover .berita__terkait__card__img .img__sec {
+    transform: scale(1.1);
+}
+
+.berita__terkait__card__body {
+    padding: 25px 30px 30px;
+}
+.berita__terkait__date {
+    font-weight: 500;
+
+    margin-bottom: 18px;
+}
+.berita__terkait__date i {
+    margin-right: 12px;
+}
+
+.berita__terkait__title {
+    font-family: var(--head-font);
+    font-size: 24px;
+
+    margin-bottom: 16px;
+}
+.berita__terkait__desc {
+    margin-bottom: 42px;
 }
 /*********************************************/
 /*               KALENDER PAGE               */
@@ -2010,7 +2133,7 @@ header .body__section {
         margin: 10px 0;
     }
     .info__akademik__card, .info__beasiswa__card {
-        height: 420px;
+        height: 460px;
     }
 
 }
@@ -2333,6 +2456,9 @@ header .body__section {
     /*******************************************/
     /*               BERITA PAGE               */
     /*******************************************/
+    .info__akademik__card, .info__beasiswa__card{
+        height: 520px;
+    }
     /*********************************************/
     /*               KALENDER PAGE               */
     /*********************************************/
@@ -2759,7 +2885,6 @@ header .body__section {
         margin: 0px 0px;
     }
     .info__akademik__card, .info__beasiswa__card {
-        max-height: 300px;
     }
     /*********************************************/
     /*               KALENDER PAGE               */

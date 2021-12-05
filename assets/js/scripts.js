@@ -333,3 +333,26 @@ $(document).ready(function () {
     },
   });
 });
+// index - berita__terkait
+$(document).ready(function () {
+  $(".owl-carousel#berita__terkait-content").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    smartSpeed: 1000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+});
