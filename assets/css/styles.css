@@ -1458,7 +1458,7 @@ header .body__section {
 .berita__info__beasiswa:hover {
   transform: translateY(-6px);
 }
-.info__akademik__section, .info__beasiswa__section, .isi__berita__section{
+.info__akademik__section, .info__beasiswa__section, .isi__berita__section, .press__release__section{
     padding: var(--m-lg);
 }
 .info__beasiswa__section {
@@ -1472,8 +1472,7 @@ header .body__section {
 .info__akademik__card,
 .info__beasiswa__card {
   transition: all 0.3s ease;
-
-    height: 420px;
+    height: 430px;
     box-shadow: 0 0 1px rgb(0 0 0 / 10%),
         0 6px 15px rgb(0 0 0 / 8%);
 }
@@ -1525,13 +1524,8 @@ header .body__section {
   padding: 10px 24px;
 }
 /* info akademik aside */
-.info__aside {
-  position: absolute;
-  padding: var(--m-lg);
-  align-items: flex-end;
-}
-.info__aside h5 {
-  margin: 1.5rem 0;
+.akademik__aside__body {
+  top: 24px;
 }
 .icon__berita i {
   font-size: 36px;
@@ -1555,11 +1549,9 @@ header .body__section {
   align-items: center;
   justify-content: space-between;
 }
-
 .info__akademik__link i {
   transition: all 0.4s ease;
 }
-
 .info__akademik__link[aria-expanded="true"] .icon-down {
   transform: rotate(180deg);
 }
@@ -1589,6 +1581,9 @@ header .body__section {
 .info__beasiswa__section {
   padding: var(--m-lg);
 }
+.populer__aside__content{
+  margin-bottom: 48px;
+}
 /* ********  View Berita   ********* */
 .isi__berita__populer__aside{
     margin-bottom:10px;
@@ -1608,29 +1603,23 @@ header .body__section {
 .isi__berita__aside__content{
     padding-left: 20px;
 }
+/* **** Aside view berita **** */
 .berita__populer__card {
     transition: all .3s ease;
 
     box-shadow: 0 0 1px rgb(0 0 0 / 10%),
         0 6px 15px rgb(0 0 0 / 8%);
 }
-
 .berita__populer__card:hover {
     transition: all .3s ease;
 
     box-shadow: 0 0 1px rgb(0 0 0 / 10%),
         0 6px 15px rgb(0 0 0 / 10%);
 }
-
-.populer__card__title{
-    
-}
 .populer__card__title h6{
-    font-size: 16px !important;
+    font-size: 15px !important;
     margin: 0;
     font-weight: 500;
-}
-.populer__photo{
 }
 .populer__photo__sec{
     object-fit: cover;
