@@ -1689,6 +1689,36 @@ header .body__section {
 .kalender__section {
   padding: var(--m-lg);
 }
+.kalender__content{
+  padding: 3rem;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+.fc-button-primary{
+  background-color:var(--dark2) !important;
+  border-color: #fff !important;
+}
+.fc-icon{
+  color: #fff;
+}
+#calendar a{
+  color:rgba(0, 0, 0, 1)
+}
+.fc-h-event {
+  background-color: var(--green1) !important;
+  border: none;
+}
+.fc-event-title-container .fc-event-title{
+  color:#fff !important;
+}
+.fc-daygrid-event .fc-event-title{
+  color:var(--dark2);
+}
+.fc-daygrid-event-dot{
+  border-color: var(--green1) !important;
+}
+.fc-day-today{
+  background-color: rgba(61, 165, 99, .2) !important;
+}
 
 /******************************************/
 /*               ARSIP PAGE               */
@@ -2290,6 +2320,10 @@ header .body__section {
     /*********************************************/
     /*               KALENDER PAGE               */
     /*********************************************/
+    .kalender__content{
+      padding: 2rem;
+      box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    }
     /******************************************/
     /*               ARSIP PAGE               */
     /******************************************/
@@ -2951,7 +2985,24 @@ header .body__section {
     /*********************************************/
     /*               KALENDER PAGE               */
     /*********************************************/
-
+    .kalender__content{
+      padding: 0;
+      box-shadow: 0 0 0px 0 rgb(0 0 0 / 0%);
+    }
+    .fc-header-toolbar{
+      flex-direction: column !important;
+      justify-content: center !important;
+    }
+    .fc-toolbar-title{
+      font-size: 36px !important;
+      margin-top: 1.5rem !important;
+    }
+    .fc .fc-view-harness{
+      min-height: 443px;
+    }
+    .fc-toolbar-chunk:nth-child(3){
+      display: none;
+    }
     /******************************************/
     /*               ARSIP PAGE               */
     /******************************************/
