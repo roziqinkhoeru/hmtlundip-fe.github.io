@@ -553,6 +553,10 @@ header .body__section {
   margin-bottom: 15px;
 }
 
+.body__section h6 a {
+  color: var(--black);
+}
+
 .hero__contact {
   display: flex;
 
@@ -1403,11 +1407,6 @@ header .body__section {
 /*******************************************/
 /*               BERITA PAGE               */
 /*******************************************/
-.berita-terkini-content {
-}
-.item__berita__terkini {
-  /* box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.36);     */
-}
 .berita__terkini__section {
   padding: var(--m-lg);
 }
@@ -1458,7 +1457,7 @@ header .body__section {
 .berita__info__beasiswa:hover {
   transform: translateY(-6px);
 }
-.info__akademik__section, .info__beasiswa__section, .isi__berita__section{
+.info__akademik__section, .info__beasiswa__section, .isi__berita__section, .press__release__section{
     padding: var(--m-lg);
 }
 .info__beasiswa__section {
@@ -1472,8 +1471,7 @@ header .body__section {
 .info__akademik__card,
 .info__beasiswa__card {
   transition: all 0.3s ease;
-
-    height: 420px;
+    height: 430px;
     box-shadow: 0 0 1px rgb(0 0 0 / 10%),
         0 6px 15px rgb(0 0 0 / 8%);
 }
@@ -1525,13 +1523,8 @@ header .body__section {
   padding: 10px 24px;
 }
 /* info akademik aside */
-.info__aside {
-  position: absolute;
-  padding: var(--m-lg);
-  align-items: flex-end;
-}
-.info__aside h5 {
-  margin: 1.5rem 0;
+.akademik__aside__body{
+  top: 24px;
 }
 .icon__berita i {
   font-size: 36px;
@@ -1555,11 +1548,9 @@ header .body__section {
   align-items: center;
   justify-content: space-between;
 }
-
 .info__akademik__link i {
   transition: all 0.4s ease;
 }
-
 .info__akademik__link[aria-expanded="true"] .icon-down {
   transform: rotate(180deg);
 }
@@ -1589,48 +1580,40 @@ header .body__section {
 .info__beasiswa__section {
   padding: var(--m-lg);
 }
+.populer__aside__content{
+  margin-bottom: 48px;
+}
 /* ********  View Berita   ********* */
-.isi__berita__populer__aside{
-    margin-bottom:10px;
+.isi__berita__populer__aside {
+  margin-bottom: 10px;
 }
-.keterangan__berita{
-    font-size: 13px;
+.keterangan__berita {
+  font-size: 13px;
 }
-.isi__berita__image{
-
+.isi__berita__image__sec {
+  max-height: 800px !important;
 }
-.isi__berita__image__sec{
-    max-height: 800px !important;
+.isi__berita__aside__sticky {
+  top: 50px;
 }
-.isi__berita__aside__sticky{
-    top: 50px;
+.isi__berita__aside__content {
+  padding-left: 20px;
 }
-.isi__berita__aside__content{
-    padding-left: 20px;
-}
+/* **** Aside view berita **** */
 .berita__populer__card {
-    transition: all .3s ease;
+  transition: all 0.3s ease;
 
-    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
-        0 6px 15px rgb(0 0 0 / 8%);
+  box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 6px 15px rgb(0 0 0 / 8%);
 }
-
 .berita__populer__card:hover {
-    transition: all .3s ease;
+  transition: all 0.3s ease;
 
-    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
-        0 6px 15px rgb(0 0 0 / 10%);
-}
-
-.populer__card__title{
-    
+  box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 6px 15px rgb(0 0 0 / 10%);
 }
 .populer__card__title h6{
-    font-size: 16px !important;
+    font-size: 15px !important;
     margin: 0;
     font-weight: 500;
-}
-.populer__photo{
 }
 .populer__photo__sec{
     object-fit: cover;
@@ -1638,69 +1621,67 @@ header .body__section {
 }
 
 /* ********* Carousel berita terkait *********** */
-.berita__terkait__section{
-    background: var(--light);
+.berita__terkait__section {
+  background: var(--light);
 }
-.berita__terkait__section .body__section{
-    padding: var(--m-lg);
+.berita__terkait__section .body__section {
+  padding: var(--m-lg);
 }
-.berita__terkait__section .title__section{
-    margin: 0;
+.berita__terkait__section .title__section {
+  margin: 0;
 }
 .berita__terkait__card {
-    cursor: pointer;
-    transition: all .4s ease;
-    border-radius: var(--lg-rad);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border-radius: var(--lg-rad);
 
-    box-shadow: 0 0 1px rgb(0 0 0 / 5%),
-        0 3px 15px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 1px rgb(0 0 0 / 5%), 0 3px 15px rgb(0 0 0 / 10%);
 }
 
 .berita__terkait__card:hover {
-    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
-        0 4px 20px rgb(0 0 0 / 15%);
+  box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 15%);
 }
 
 .berita__terkait__card__img {
-    position: relative;
+  position: relative;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    width: 100%;
-    height: 240px;
-    border-radius: var(--lg-rad) var(--lg-rad) 0 0;
+  width: 100%;
+  height: 240px;
+  border-radius: var(--lg-rad) var(--lg-rad) 0 0;
 }
 .berita__terkait__card__img .img__sec {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    transition: all .6s ease;
+  transition: all 0.6s ease;
 }
 
 .berita__terkait__card:hover .berita__terkait__card__img .img__sec {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .berita__terkait__card__body {
-    padding: 25px 30px 30px;
+  padding: 25px 30px 30px;
 }
 .berita__terkait__date {
-    font-weight: 500;
+  font-weight: 500;
 
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 .berita__terkait__date i {
-    margin-right: 12px;
+  margin-right: 12px;
 }
 
 .berita__terkait__title {
-    font-family: var(--head-font);
-    font-size: 24px;
+  font-family: var(--head-font);
+  font-size: 24px;
 
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .berita__terkait__desc {
-    margin-bottom: 42px;
+  margin-bottom: 42px;
 }
 /*********************************************/
 /*               KALENDER PAGE               */
