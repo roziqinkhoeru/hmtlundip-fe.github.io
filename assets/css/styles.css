@@ -56,7 +56,6 @@
   --md-rad: 6px;
   --lg-rad: 12px;
 }
-
 /*********************************************/
 /*               GENERAL STYLE               */
 /*********************************************/
@@ -643,8 +642,10 @@ header .body__section {
 
 .about__card {
   padding: 8px 24px;
-  border-radius: var(--lg-rad);
+
   transition: all 0.4s ease;
+
+  border-radius: var(--lg-rad);
 }
 
 .about__card:hover {
@@ -689,8 +690,8 @@ header .body__section {
 .news__card {
   cursor: pointer;
   transition: all 0.4s ease;
-  border-radius: var(--lg-rad);
 
+  border-radius: var(--lg-rad);
   box-shadow: 0 0 1px rgb(0 0 0 / 5%), 0 3px 15px rgb(0 0 0 / 10%);
 }
 
@@ -705,6 +706,7 @@ header .body__section {
 
   width: 100%;
   height: 240px;
+
   border-radius: var(--lg-rad) var(--lg-rad) 0 0;
 }
 
@@ -1019,6 +1021,7 @@ header .body__section {
 
   width: 100%;
   height: 120px;
+
   border-radius: var(--lg-rad);
 }
 
@@ -1180,8 +1183,9 @@ header .body__section {
 
 .struktur__img {
   padding: 24px;
-  box-shadow: 0 0 1px 0 rgb(0 0 0 / 10%), 0 0 20px 0 rgb(0 0 0 / 12%);
+
   border-radius: var(--md-rad);
+  box-shadow: 0 0 1px 0 rgb(0 0 0 / 10%), 0 0 20px 0 rgb(0 0 0 / 12%);
 }
 
 .struktur__section .med__zoom {
@@ -1255,12 +1259,14 @@ header .body__section {
 
 .member__card {
   max-width: 360px;
+
   transition: all 0.4s ease;
 }
 
 .member__card:hover {
-  box-shadow: 0 0 1px 0 rgb(0 0 0 / 10%), 0 4px 20px 0 rgb(0 0 0 / 15%);
   transform: translateY(-10px);
+
+  box-shadow: 0 0 1px 0 rgb(0 0 0 / 10%), 0 4px 20px 0 rgb(0 0 0 / 15%);
 }
 
 #ketua-bidang {
@@ -1278,12 +1284,15 @@ header .body__section {
 .member__card .img__sec {
   width: 100%;
   height: 300px;
+
   border-radius: var(--md-rad) var(--md-rad) 0 0;
 }
 
 .content__memcard {
   padding: 24px;
+
   text-align: center;
+
   border-radius: 0 0 var(--md-rad) var(--md-rad);
 }
 
@@ -1320,8 +1329,10 @@ header .body__section {
 
 .icon__biro i {
   font-size: 36px;
+
   margin-right: 12px;
   margin-bottom: 12px;
+
   transition: all 0.4s ease;
 }
 
@@ -1335,6 +1346,7 @@ header .body__section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .seni__section {
   padding: var(--m-lg);
 }
@@ -1347,22 +1359,28 @@ header .body__section {
 .olahraga__section {
   padding-top: 112px;
 }
+
 .olahraga__section .olahraga:nth-of-type(even),
 .seni__section .seni:nth-of-type(even) {
   background: var(--light);
 }
+
 .chief__UKM {
   margin-bottom: 60px;
 }
+
 .ketua__ukm,
 .penanggung__ukm {
   margin: 10px 0;
 }
+
 .list__latihan,
 .list__pencapaian {
   margin: 10px 3rem;
+
   list-style: disc;
 }
+
 .icon__jadwal {
   font-size: xx-small;
 }
@@ -1370,6 +1388,7 @@ header .body__section {
 .foto__ukm {
   margin-bottom: 36px;
 }
+
 .ukm__card__img {
   position: relative;
 
@@ -1378,12 +1397,14 @@ header .body__section {
   width: 100%;
   height: 300px;
 }
+
 .ukm__card__img .img__sec {
   width: 100%;
   height: 100%;
 
   transition: all 0.6s ease;
 }
+
 .jadwal__latihan {
   margin-bottom: 25px;
 }
@@ -1410,27 +1431,33 @@ header .body__section {
 .berita__terkini__section {
   padding: var(--m-lg);
 }
+
 .berita__terkini__body {
   margin-bottom: 20px;
 }
+
 .left__berita__terkini {
   flex: 58.3%;
 }
+
 .left__berita__terkini .img__sec {
   width: 100%;
-
-  max-height: 650px;
   height: 100%;
+  max-height: 650px;
+
   border-radius: 0 !important;
 }
+
 .right__berita__terkini {
   padding: 0 36px;
 
   flex: 41.6%;
 }
+
 .right__berita__terkini__title {
   margin-bottom: 9px;
 }
+
 .right__berita__terkini__title {
   font-size: 25px;
   font-weight: 700;
@@ -1449,31 +1476,42 @@ header .body__section {
 }
 
 /* info akademik */
-.berita__info__akademik, .berita__info__beasiswa, .berita__isi__berita {
-    transition: all .4s ease-in-out;
+.berita__info__akademik,
+.berita__info__beasiswa,
+.berita__isi__berita {
+  transition: all 0.4s ease-in-out;
 }
 
 .berita__info__akademik:hover,
 .berita__info__beasiswa:hover {
   transform: translateY(-6px);
 }
-.info__akademik__section, .info__beasiswa__section, .isi__berita__section, .press__release__section{
-    padding: var(--m-lg);
+
+.info__akademik__section,
+.info__beasiswa__section,
+.isi__berita__section,
+.press__release__section {
+  padding: var(--m-lg);
 }
+
 .info__beasiswa__section {
   background-color: var(--light);
 }
 
 /* info akademik main */
-.title__info__akademik, .title__info__beasiswa, .title__isi__berita{
-    margin-left: 0px !important;
+.title__info__akademik,
+.title__info__beasiswa,
+.title__isi__berita {
+  margin-left: 0 !important;
 }
+
 .info__akademik__card,
 .info__beasiswa__card {
+  height: 430px;
+
   transition: all 0.3s ease;
-    height: 430px;
-    box-shadow: 0 0 1px rgb(0 0 0 / 10%),
-        0 6px 15px rgb(0 0 0 / 8%);
+
+  box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 6px 15px rgb(0 0 0 / 8%);
 }
 
 .info__akademik__card:hover,
@@ -1482,6 +1520,7 @@ header .body__section {
 
   box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 6px 15px rgb(0 0 0 / 10%);
 }
+
 .info__akademik__photo,
 .info__beasiswa__photo {
   width: 100%;
@@ -1489,10 +1528,10 @@ header .body__section {
 
   background-color: grey;
 }
+
 .info__akademik__content,
 .info__beasiswa__content {
   display: flex;
-
   /* padding: 0 40px 24px 0px  ; */
 
   justify-content: space-between;
@@ -1500,42 +1539,52 @@ header .body__section {
   flex-wrap: wrap;
 }
 
-.info__akademik__content p, .info__beasiswa__content p {
-    font-size: 16px;
+.info__akademik__content p,
+.info__beasiswa__content p {
+  font-size: 16px;
 }
-.akademik__card__title p{
-    font-size: 14px !important
+
+.akademik__card__title p {
+  font-size: 14px !important;
 }
 
 .info__akademik__content h6,
 .info__beasiswa__content h6 {
+  font-weight: 700;
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
 
   -ms-hyphens: auto;
-  font-weight: 700;
-  margin-bottom: 5px;
-  margin-top: 20px;
 }
+
 .info__akademik__card__content,
 .info__beasiswa__card__content {
   padding: 10px 24px;
 }
+
 /* info akademik aside */
-.akademik__aside__body{
+.akademik__aside__body {
   top: 24px;
 }
+
 .icon__berita i {
   font-size: 36px;
+
   margin-right: 12px;
   margin-bottom: 12px;
+
   transition: all 0.4s ease;
 }
 
 .icon__berita i:hover {
   color: var(--green1);
 }
+
 .info__akademik__link {
   display: flex;
 
@@ -1548,93 +1597,117 @@ header .body__section {
   align-items: center;
   justify-content: space-between;
 }
+
 .info__akademik__link i {
   transition: all 0.4s ease;
 }
+
 .info__akademik__link[aria-expanded="true"] .icon-down {
   transform: rotate(180deg);
 }
+
 .thn__title {
   font-weight: 600;
 }
+
 .tahun__cc {
+  margin-bottom: 24px;
+  padding: 0 18px;
+
   transition: all 0.6s ease;
   transition-delay: 0.2s;
+}
 
-  margin-bottom: 24px;
-  padding: 0px 18px;
+.bulan__cc p {
+  margin: 5px 0;
 }
-.bulan__cc p{
-    margin: 5px 0;
-}
-.bulan__cc{
-    transition: all .4s ease-in-out;
-    padding: auto 0;
+
+.bulan__cc {
+  padding-left: 0;
+  padding-right: 0;
+
+  transition: all 0.4s ease-in-out;
 }
 
 .bulan__cc:hover {
-    /* transform: translateY(-6px); */
-    background-color: var(--light);
-    border-radius: 5px;
+  border-radius: 5px;
+  /* transform: translateY(-6px); */
+  background-color: var(--light);
 }
+
 .info__beasiswa__section {
   padding: var(--m-lg);
 }
-.populer__aside__content{
+
+.populer__aside__content {
   margin-bottom: 48px;
 }
+
 /* ********  View Berita   ********* */
 .isi__berita__populer__aside {
   margin-bottom: 10px;
 }
+
 .keterangan__berita {
   font-size: 13px;
 }
+
 .isi__berita__image__sec {
   max-height: 800px !important;
 }
+
 .isi__berita__aside__sticky {
   top: 50px;
 }
+
 .isi__berita__aside__content {
   padding-left: 20px;
 }
+
 /* **** Aside view berita **** */
 .berita__populer__card {
   transition: all 0.3s ease;
 
   box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 6px 15px rgb(0 0 0 / 8%);
 }
+
 .berita__populer__card:hover {
   transition: all 0.3s ease;
 
   box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 6px 15px rgb(0 0 0 / 10%);
 }
-.populer__card__title h6{
-    font-size: 15px !important;
-    margin: 0;
-    font-weight: 500;
+
+.populer__card__title h6 {
+  font-size: 15px !important;
+  font-weight: 500;
+
+  margin: 0;
 }
-.populer__photo__sec{
-    object-fit: cover;
-    height: 95px !important;
+
+.populer__photo__sec {
+  height: 95px !important;
+
+  object-fit: cover;
 }
 
 /* ********* Carousel berita terkait *********** */
 .berita__terkait__section {
   background: var(--light);
 }
+
 .berita__terkait__section .body__section {
   padding: var(--m-lg);
 }
+
 .berita__terkait__section .title__section {
   margin: 0;
 }
+
 .berita__terkait__card {
   cursor: pointer;
   transition: all 0.4s ease;
-  border-radius: var(--lg-rad);
 
+  border-radius: var(--lg-rad);
   box-shadow: 0 0 1px rgb(0 0 0 / 5%), 0 3px 15px rgb(0 0 0 / 10%);
 }
 
@@ -1649,8 +1722,10 @@ header .body__section {
 
   width: 100%;
   height: 240px;
+
   border-radius: var(--lg-rad) var(--lg-rad) 0 0;
 }
+
 .berita__terkait__card__img .img__sec {
   width: 100%;
   height: 100%;
@@ -1665,11 +1740,13 @@ header .body__section {
 .berita__terkait__card__body {
   padding: 25px 30px 30px;
 }
+
 .berita__terkait__date {
   font-weight: 500;
 
   margin-bottom: 18px;
 }
+
 .berita__terkait__date i {
   margin-right: 12px;
 }
@@ -1680,44 +1757,56 @@ header .body__section {
 
   margin-bottom: 16px;
 }
+
 .berita__terkait__desc {
   margin-bottom: 42px;
 }
+
 /*********************************************/
 /*               KALENDER PAGE               */
 /*********************************************/
 .kalender__section {
   padding: var(--m-lg);
 }
-.kalender__content{
+
+.kalender__content {
   padding: 3rem;
+
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
 }
-.fc-button-primary{
-  background-color:var(--dark2) !important;
+
+.fc-button-primary {
   border-color: #fff !important;
+  background-color: var(--dark2) !important;
 }
-.fc-icon{
+
+.fc-icon {
   color: #fff;
 }
-#calendar a{
-  color:rgba(0, 0, 0, 1)
+
+#calendar a {
+  color: rgba(0, 0, 0, 1);
 }
+
 .fc-h-event {
-  background-color: var(--green1) !important;
   border: none;
+  background-color: var(--green1) !important;
 }
-.fc-event-title-container .fc-event-title{
-  color:#fff !important;
+
+.fc-event-title-container .fc-event-title {
+  color: #fff !important;
 }
-.fc-daygrid-event .fc-event-title{
-  color:var(--dark2);
+
+.fc-daygrid-event .fc-event-title {
+  color: var(--dark2);
 }
-.fc-daygrid-event-dot{
+
+.fc-daygrid-event-dot {
   border-color: var(--green1) !important;
 }
-.fc-day-today{
-  background-color: rgba(61, 165, 99, .2) !important;
+
+.fc-day-today {
+  background-color: rgba(61, 165, 99, 0.2) !important;
 }
 
 /* custom style tooltip fullcalendar */
@@ -1817,7 +1906,6 @@ header .body__section {
   margin-left: 0;
   margin-right: 0;
 } */
-
 /******************************************/
 /*               ARSIP PAGE               */
 /******************************************/
@@ -2230,25 +2318,31 @@ header .body__section {
     margin: auto;
   }
 }
-@media (max-width: 1200px) {
-    .list__latihan,
-    .list__pencapaian {
-        margin: 10px 0;
-    }
-    .info__akademik__card, .info__beasiswa__card {
-        height: 460px;
-    }
 
+@media (max-width: 1200px) {
+  .list__latihan,
+  .list__pencapaian {
+    margin: 10px 0;
+  }
+
+  .info__akademik__card,
+  .info__beasiswa__card {
+    height: 460px;
+  }
 }
-@media (max-width: 426px){
-    .latihan__col{
-        flex: 0 0 auto;
-        width: 66.66666667%;
-    }
-    .pencapaian__col{
-        flex: 0 0 auto;
-        width: 100%;
-    }
+
+@media (max-width: 426px) {
+  .latihan__col {
+    width: 66.66666667%;
+
+    flex: 0 0 auto;
+  }
+
+  .pencapaian__col {
+    width: 100%;
+
+    flex: 0 0 auto;
+  }
 }
 
 /*=============== tablet view ===============*/
@@ -2259,11 +2353,13 @@ header .body__section {
   .info__aside {
     position: relative;
   }
+
   .info__akademik__card,
   .info__beasiswa__card {
     max-height: 350px;
   }
 }
+
 @media screen and (max-width: 991px) {
   /****************************************/
   /*               VARIABLE               */
@@ -2374,72 +2470,77 @@ header .body__section {
     display: none;
   }
 
-    .search__field {
-        padding: 6px 16px;
-    }
+  .search__field {
+    padding: 6px 16px;
+  }
 
-    .search__submit {
-        margin-left: 12px;
-        padding: 8px 18px;
-    }
+  .search__submit {
+    margin-left: 12px;
+    padding: 8px 18px;
+  }
 
-    /*******************************************/
-    /*               PROFIL PAGE               */
-    /*******************************************/
-    .linkfil__card {
-        margin: 0 9px;
-    }
+  /*******************************************/
+  /*               PROFIL PAGE               */
+  /*******************************************/
+  .linkfil__card {
+    margin: 0 9px;
+  }
 
-    /*Himpunan Mahasiswa Teknik Lingkungan*/
-    .vidprol {
-        font-size: 24px;
-    }
+  /*Himpunan Mahasiswa Teknik Lingkungan*/
+  .vidprol {
+    font-size: 24px;
+  }
 
-    .visi__point {
-        font-size: 20px;
-    }
+  .visi__point {
+    font-size: 20px;
+  }
 
-    .ubid__point__head p {
-        font-size: 18px;
-    }
+  .ubid__point__head p {
+    font-size: 18px;
+  }
 
-    .ubid__point__head i {
-        font-size: 30px;
-    }
+  .ubid__point__head i {
+    font-size: 30px;
+  }
 
-    /* Biro Teknik Lingkungan */
+  /* Biro Teknik Lingkungan */
 
-    /*******************************************/
-    /*               BERITA PAGE               */
-    /*******************************************/
-    .info__akademik__card, .info__beasiswa__card{
-        height: 520px;
-    }
-    /*********************************************/
-    /*               KALENDER PAGE               */
-    /*********************************************/
-    .kalender__content{
-      padding: 2rem;
-      box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
-    }
-    /******************************************/
-    /*               ARSIP PAGE               */
-    /******************************************/
-    /*******************************************/
-    /*               KONTAK PAGE               */
-    /*******************************************/
-    /* help section */
-    .help__section .content__card {
-        flex-direction: column;
+  /*******************************************/
+  /*               BERITA PAGE               */
+  /*******************************************/
+  .info__akademik__card,
+  .info__beasiswa__card {
+    height: 520px;
+  }
 
-        justify-content: center;
-    }
+  /*********************************************/
+  /*               KALENDER PAGE               */
+  /*********************************************/
+  .kalender__content {
+    padding: 2rem;
 
-    .help__section .content__card .body__card {
-        margin: 30px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  }
 
-        flex: 100%;
-    }
+  /******************************************/
+  /*               ARSIP PAGE               */
+  /******************************************/
+  /*******************************************/
+  /*               KONTAK PAGE               */
+  /*******************************************/
+  /* help section */
+  .help__section .content__card {
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .help__section .content__card .body__card {
+    margin: 30px;
+
+    flex: 100%;
+  }
+
   /**********************************************/
   /*               INDEX PAGE               */
   /**********************************************/
@@ -2886,6 +2987,7 @@ header .body__section {
     padding: 24px;
 
     text-align: center;
+
     flex: 100%;
   }
 
@@ -2945,212 +3047,228 @@ header .body__section {
     border: 1px solid var(--light);
   }
 
-    /*******************************************/
-    /*               PROFIL PAGE               */
-    /*******************************************/
-    /*Himpunan Mahasiswa Teknik Lingkungan*/
-    .askara__section .body__section img {
-        width: 180px;
-    }
+  /*******************************************/
+  /*               PROFIL PAGE               */
+  /*******************************************/
+  /*Himpunan Mahasiswa Teknik Lingkungan*/
+  .askara__section .body__section img {
+    width: 180px;
+  }
 
-    .vidprol {
-        font-size: 20px;
+  .vidprol {
+    font-size: 20px;
 
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 
-        text-align: center;
-    }
+    text-align: center;
+  }
 
-    .chief__content p:nth-child(3),
-    .chief__content p:nth-child(4),
-    .chief__content p:nth-child(5) {
-        font-size: 14px;
-    }
+  .chief__content p:nth-child(3),
+  .chief__content p:nth-child(4),
+  .chief__content p:nth-child(5) {
+    font-size: 14px;
+  }
 
-    .chief__break {
-        display: block;
+  .chief__break {
+    display: block;
 
-        width: 85%;
-        margin: 0 auto;
+    width: 85%;
+    margin: 0 auto;
 
-        border: 1px solid var(--light);
-    }
+    border: 1px solid var(--light);
+  }
 
-    .visi {
-        margin-bottom: 60px;
+  .visi {
+    margin-bottom: 60px;
 
-        text-align: center;
-    }
+    text-align: center;
+  }
 
-    .visi__point {
-        font-size: 16px;
+  .visi__point {
+    font-size: 16px;
 
-        width: 100%;
-    }
+    width: 100%;
+  }
 
-    .misi h3 {
-        text-align: center;
-    }
+  .misi h3 {
+    text-align: center;
+  }
 
-    .visi,
-    .misi {
-        padding: 0 12px;
-    }
+  .visi,
+  .misi {
+    padding: 0 12px;
+  }
 
-    .misi__point i {
-        font-size: 32px;
+  .misi__point i {
+    font-size: 32px;
 
-        margin-right: 20px;
-    }
+    margin-right: 20px;
+  }
 
-    .ubid__body {
-        padding: 0 12px;
-    }
+  .ubid__body {
+    padding: 0 12px;
+  }
 
-    .ubid__point__head p {
-        font-size: 16px;
-    }
+  .ubid__point__head p {
+    font-size: 16px;
+  }
 
-    .ubid__point__head i {
-        font-size: 24px;
-    }
+  .ubid__point__head i {
+    font-size: 24px;
+  }
 
-    .ubid__point__body p,
-    .ubid__point__body ol li {
-        font-size: 14px;
-    }
+  .ubid__point__body p,
+  .ubid__point__body ol li {
+    font-size: 14px;
+  }
 
-    .ubid__point__body .subtitle__point {
-        font-size: 16px;
-    }
+  .ubid__point__body .subtitle__point {
+    font-size: 16px;
+  }
 
-    /* Biro Teknik Lingkungan */
-    .biro__content {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
+  /* Biro Teknik Lingkungan */
+  .biro__content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 
-    .biro__content .proker__biro {
-        margin-bottom: 36px;
-    }
+  .biro__content .proker__biro {
+    margin-bottom: 36px;
+  }
 
-    .img__biro {
-        display: block;
-        width: 75%;
-        margin: auto;
-    }
+  .img__biro {
+    display: block;
 
-    /* Unit Kegiatan Mahasiswa  */
-    .list__latihan,
-    .list__pencapaian {
-        margin: 10px 0;
-    }
+    width: 75%;
+    margin: auto;
+  }
 
-    /*******************************************/
-    /*               BERITA PAGE               */
-    /*******************************************/
-    .berita__terkini__body {
-        flex-direction: column;
-    }
-    .left__berita__terkini {
-        flex: 100%;
-    }
+  /* Unit Kegiatan Mahasiswa  */
+  .list__latihan,
+  .list__pencapaian {
+    margin: 10px 0;
+  }
 
-    .left__berita__terkini .img__sec {
-        height: 200px;
-    }
-    .right__berita__terkini {
-        padding: 0 36px;
-    }
-    .right__berita__terkini {
-        padding: 24px;
+  /*******************************************/
+  /*               BERITA PAGE               */
+  /*******************************************/
+  .berita__terkini__body {
+    flex-direction: column;
+  }
 
-        text-align: center;
-        ;
+  .left__berita__terkini {
+    flex: 100%;
+  }
 
-        flex: 100%;
-    }
-    .right__berita__terkini__title {
-        font-size: 30px;
-    }
-    /* info section */
-    .info__akademik__photo, .info__beasiswa__photo {
-        height: 150px;
-    }
-    .info__body{
-        margin: 0px 0px;
-    }
-    /*********************************************/
-    /*               KALENDER PAGE               */
-    /*********************************************/
-    .kalender__content{
-      padding: 0;
-      box-shadow: 0 0 0px 0 rgb(0 0 0 / 0%);
-    }
-    .fc-header-toolbar{
-      flex-direction: column !important;
-      justify-content: center !important;
-    }
-    .fc-toolbar-title{
-      font-size: 36px !important;
-      margin-top: 1.5rem !important;
-    }
-    .fc .fc-view-harness{
-      min-height: 443px;
-    }
-    .fc-toolbar-chunk:nth-child(3){
-      display: none;
-    }
-    /******************************************/
-    /*               ARSIP PAGE               */
-    /******************************************/
-    /* elibrary section */
-    .elibrary__main {
-        padding-bottom: 36px;
-    }
+  .left__berita__terkini .img__sec {
+    height: 200px;
+  }
 
-    .course__photo {
-        height: 100px;
-    }
+  .right__berita__terkini {
+    padding: 0 36px;
+  }
 
-    .date__elibrary,
-    .search__elibrary {
-        display: none;
-    }
+  .right__berita__terkini {
+    padding: 24px;
 
-    /*******************************************/
-    /*               KONTAK PAGE               */
-    /*******************************************/
-    /* help section */
-    .title__section {
-        padding-bottom: 24px;
-    }
+    text-align: center;
 
-    /*content card*/
-    .help__section .content__card .body__card {
-        margin: 15px;
-        padding: 24px;
-    }
+    flex: 100%;
+  }
 
-    /* socmed section */
-    .socmed__section .row .socmed__head {
-        text-align: center;
-    }
+  .right__berita__terkini__title {
+    font-size: 30px;
+  }
 
-    .socmed__section .socmed__head .title__socmed {
-        padding: 0 30px;
-    }
+  /* info section */
+  .info__akademik__photo,
+  .info__beasiswa__photo {
+    height: 150px;
+  }
 
-    .socmed__section .row .socmed__head p:nth-child(2) {
-        margin-bottom: 36px;
-    }
+  .info__body {
+    margin: 0 0;
+  }
 
-    /*socmed content*/
-    #socmed-content .owl__ilink img {
-        height: 48px;
-    }
+  /*********************************************/
+  /*               KALENDER PAGE               */
+  /*********************************************/
+  .kalender__content {
+    padding: 0;
 
-    #socmed-content .owl__ilink img:hover {
-        height: 44px;
-    }
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%);
+  }
+
+  .fc-header-toolbar {
+    flex-direction: column !important;
+
+    justify-content: center !important;
+  }
+
+  .fc-toolbar-title {
+    font-size: 36px !important;
+
+    margin-top: 1.5rem !important;
+  }
+
+  .fc .fc-view-harness {
+    min-height: 443px;
+  }
+
+  .fc-toolbar-chunk:nth-child(3) {
+    display: none;
+  }
+
+  /******************************************/
+  /*               ARSIP PAGE               */
+  /******************************************/
+  /* elibrary section */
+  .elibrary__main {
+    padding-bottom: 36px;
+  }
+
+  .course__photo {
+    height: 100px;
+  }
+
+  .date__elibrary,
+  .search__elibrary {
+    display: none;
+  }
+
+  /*******************************************/
+  /*               KONTAK PAGE               */
+  /*******************************************/
+  /* help section */
+  .title__section {
+    padding-bottom: 24px;
+  }
+
+  /*content card*/
+  .help__section .content__card .body__card {
+    margin: 15px;
+    padding: 24px;
+  }
+
+  /* socmed section */
+  .socmed__section .row .socmed__head {
+    text-align: center;
+  }
+
+  .socmed__section .socmed__head .title__socmed {
+    padding: 0 30px;
+  }
+
+  .socmed__section .row .socmed__head p:nth-child(2) {
+    margin-bottom: 36px;
+  }
+
+  /*socmed content*/
+  #socmed-content .owl__ilink img {
+    height: 48px;
+  }
+
+  #socmed-content .owl__ilink img:hover {
+    height: 44px;
+  }
 }

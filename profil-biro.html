@@ -1,738 +1,1171 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Website Himpunan Mahasiswa Teknik Lingkungan Fakultas Tenik Universitas Diponegoro. Menyajikan informasi seputar HMTL, berita aktual, organisasi, biro, kegiatan, maupun prestasi dari mahasiswa."
+    />
+    <meta name="author" content="hmtl undip" />
+    <meta
+      name="keywords"
+      content="hmtl,hmtlundip,HMTLundip,HMTLUNDIP,tekniklingkunganundip,himpunanmahasiswatekniklingkunganundip"
+    />
 
-	<!-- SEO Meta Tags -->
-	<meta name="description"
-		content="Website Himpunan Mahasiswa Teknik Lingkungan Fakultas Tenik Universitas Diponegoro. Menyajikan informasi seputar HMTL, berita aktual, organisasi, biro, kegiatan, maupun prestasi dari mahasiswa.">
-	<meta name="author" content="hmtl undip">
-	<meta name="keywords"
-		content="hmtl,hmtlundip,HMTLundip,HMTLUNDIP,tekniklingkunganundip,himpunanmahasiswatekniklingkunganundip">
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="HMTL UNDIP" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta
+      property="og:title"
+      content="Profil-Biro Himpunan Mahasiswa Teknik Lingkungan UNDIP"
+    />
+    <!-- title shown in the actual shared post -->
+    <meta
+      property="og:description"
+      content="Website Himpunan Mahasiswa Teknik Lingkungan Fakultas Tenik Universitas Diponegoro. Menyajikan informasi seputar HMTL, berita aktual, organisasi, biro, kegiatan, maupun prestasi dari mahasiswa."
+    />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- to have large image post format in Twitter -->
 
-	<!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="HMTL UNDIP" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content="Profil-Biro Himpunan Mahasiswa Teknik Lingkungan UNDIP" />
-	<!-- title shown in the actual shared post -->
-	<meta property="og:description"
-		content="Website Himpunan Mahasiswa Teknik Lingkungan Fakultas Tenik Universitas Diponegoro. Menyajikan informasi seputar HMTL, berita aktual, organisasi, biro, kegiatan, maupun prestasi dari mahasiswa." />
-	<!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <!-- Webpage Title -->
+    <title>
+      Himpunan Mahasiswa Teknik Lingkungan - HMTL | Universitas Diponegoro
+    </title>
 
-	<!-- Webpage Title -->
-	<title>Himpunan Mahasiswa Teknik Lingkungan - HMTL | Universitas Diponegoro</title>
+    <!-- apple touch icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/images/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/images/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/images/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/images/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/images/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/images/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon-180x180.png"
+    />
 
-	<!-- apple touch icon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon-180x180.png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="assets/vendor/icofont/icofont.css" />
+    <!-- icofont icon styles -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/fontawesome-free-5.15.3-web/css/all.css"
+    />
+    <!-- fontawesome icon styles -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+    <!-- flaticon bold rounded icon styles -->
+    <link
+      rel="stylesheet"
+      href="assets/vendor/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <!-- flaticon regular straight icon styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- animate animation styles -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- owl carousel min -->
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <!-- owl carousel theme default min -->
 
-	<!-- Styles -->
-	<link rel="stylesheet" href="assets/css/bootstrap.css"> <!-- bootstrap styles -->
-	<link rel="stylesheet" href="assets/vendor/icofont/icofont.css"> <!-- icofont icon styles -->
-	<link rel="stylesheet" href="assets/vendor/fontawesome-free-5.15.3-web/css/all.css">
-	<!-- fontawesome icon styles -->
-	<link rel="stylesheet" href="assets/vendor/uicons-bold-rounded/css/uicons-bold-rounded.css">
-	<!-- flaticon bold rounded icon styles -->
-	<link rel="stylesheet" href="assets/vendor/uicons-regular-straight/css/uicons-regular-straight.css">
-	<!-- flaticon regular straight icon styles -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-	<!-- animate animation styles -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css"> <!-- owl carousel min -->
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> <!-- owl carousel theme default min -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- custom styles -->
 
-	<link rel="stylesheet" href="assets/css/styles.css"> <!-- custom styles -->
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/images/favicon-hmtl.ico" />
+  </head>
 
-	<!-- Favicon  -->
-	<link rel="icon" href="assets/images/favicon-hmtl.ico">
-</head>
+  <body>
+    <!-- navigations -->
+    <!-- FINISH -->
+    <nav class="navbar nav__pt__pb navbar-expand-lg fixed-top navbar-light">
+      <div class="container-fluid">
+        <!-- logo navigation-->
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo-title-hmtl.svg"
+            alt="alterlogo"
+            height="36"
+          />
+        </a>
+        <!-- end logo navigation -->
 
-<body>
-	<!-- navigations -->
-	<!-- FINISH -->
-	<nav class="navbar nav__pt__pb navbar-expand-lg fixed-top navbar-light">
-		<div class="container-fluid">
-			<!-- logo navigation-->
-			<a class="navbar-brand" href="index.html">
-				<img src="assets/images/logo-title-hmtl.svg" alt="alterlogo" height="36px">
-			</a> <!-- end logo navigation -->
+        <!-- right navigation mobile view -->
+        <div class="right__navbar__toggler">
+          <!-- button search mobile view-->
+          <div
+            class="btn__search mobile__view"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <i class="icofont-search-1"></i>
+            <span class="btn__caption">Search</span>
+          </div>
+          <!-- end button search mobile view -->
+          <!-- button menu -->
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarWithDropdown"
+            aria-controls="navbarWithDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fi-rs-menu-burger"></span>
+          </button>
+          <!-- end button menu -->
+        </div>
+        <!-- end right navigation mobile view -->
 
-			<!-- right navigation mobile view -->
-			<div class="right__navbar__toggler">
-				<!-- button search mobile view-->
-				<div class="btn__search mobile__view" data-bs-toggle="offcanvas"
-					data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-					<i class="icofont-search-1"></i>
-					<span class="btn__caption">Search</span>
-				</div> <!-- end button search mobile view -->
-				<!-- button menu -->
-				<button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="fi-rs-menu-burger"></span>
-				</button> <!-- end button menu -->
-			</div> <!-- end right navigation mobile view -->
+        <!-- navbar list -->
+        <div class="collapse navbar-collapse" id="navbarWithDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link nav__font"
+                aria-current="page"
+                href="index.html"
+              >
+                <span>Beranda</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="profil.html"
+                class="nav-link nav__font dropdown-toggle active"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Profil</span>
+                <i class="icofont-simple-down"></i>
+              </a>
+              <ul
+                class="drop__menu dropdown-menu animate__animated animate__fadeIn animate__faster"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="drop__item dropdown-item" href="profil-hmtl.html"
+                    >Himpunan Mahasiswa Teknik Lingkungan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="drop__item dropdown-item active"
+                    href="profil-biro.html"
+                    >Biro Teknik Lingkungan</a
+                  >
+                </li>
+                <li>
+                  <a class="drop__item dropdown-item" href="profil-ukm.html"
+                    >Unit Kegiatan Mahasiswa</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__font" href="berita.html">
+                <span>Berita</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__font" href="kalender.html">
+                <span>Kalender</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__font" href="arsip.html">
+                <span>Arsip</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__font" href="kontak.html">
+                <span>Kontak</span>
+              </a>
+            </li>
+          </ul>
+          <!-- button search -->
+          <div
+            class="btn__search"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <i class="icofont-search-1"></i>
+            <span class="btn__caption">Search</span>
+          </div>
+          <!-- end button search -->
+        </div>
+        <!-- end navbar list -->
+      </div>
+      <!-- end container fluid -->
+    </nav>
+    <!-- end navigations -->
 
-			<!-- navbar list -->
-			<div class="collapse navbar-collapse" id="navbarWithDropdown">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item">
-						<a class="nav-link nav__font" aria-current="page" href="index.html">
-							<span>Beranda</span>
-						</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a href="profil.html" class="nav-link nav__font dropdown-toggle active"
-							id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							<span>Profil</span>
-							<i class="icofont-simple-down"></i>
-						</a>
-						<ul class="drop__menu dropdown-menu animate__animated animate__fadeIn animate__faster"
-							aria-labelledby="navbarDropdownMenuLink">
-							<li><a class="drop__item dropdown-item" href="profil-hmtl.html">Himpunan Mahasiswa Teknik
-									Lingkungan</a></li>
-							<li><a class="drop__item dropdown-item active" href="profil-biro.html">Biro Teknik
-									Lingkungan</a></li>
-							<li><a class="drop__item dropdown-item" href="profil-ukm.html">Unit Kegiatan Mahasiswa</a>
-							</li>
-						</ul>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav__font" href="berita.html">
-							<span>Berita</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav__font" href="kalender.html">
-							<span>Kalender</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav__font" href="arsip.html">
-							<span>Arsip</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav__font" href="kontak.html">
-							<span>Kontak</span>
-						</a>
-					</li>
-				</ul>
-				<!-- button search -->
-				<div class="btn__search" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
-					aria-controls="offcanvasWithBothOptions">
-					<i class="icofont-search-1"></i>
-					<span class="btn__caption">Search</span>
-				</div> <!-- end button search -->
-			</div> <!-- end navbar list -->
-		</div> <!-- end container fluid -->
-	</nav> <!-- end navigations -->
+    <!-- header -->
+    <!-- FINISH -->
+    <header
+      class="headers"
+      style="background-image: url(assets/images/jumbotron-profil-biro.jpg)"
+    >
+      <div class="container">
+        <div class="body__section text-center">
+          <h2>PROFIL</h2>
+          <p class="sub__title">Biro Teknik Lingkungan</p>
+        </div>
+        <!-- end body section -->
+      </div>
+      <!-- end container -->
+    </header>
+    <!-- end header -->
 
+    <!-- biro section -->
+    <div class="biro__section">
+      <div class="container">
+        <div class="body__section">
+          <div class="biro">
+            <!-- biro 1 -->
+            <div class="biro__content">
+              <div class="row">
+                <!-- left -->
+                <div class="col-md-8 col-sm-12">
+                  <div class="pe-md-3">
+                    <h3>1. Kelompok Studi Lingkungan</h3>
+                    <p class="text-just">
+                      Kelompok Studi Lingkungan atau biasa disingkat KSL adalah
+                      suatu perkumpulan para mahasiswa Teknik Lingkungan
+                      Universitas Diponegoro yang memiliki jiwa cinta lingkungan
+                      yang kuat serta berkomitmen untuk menjadikan lingkungan
+                      Indonesia ini menjadi lebih baik dan indah yang dimulai
+                      dari hal-hal yang dasar di sekitar kampus, lalu membagikan
+                      ilmu yang dipunyai dan didapatkan untuk masyarakat
+                      sekitar, serta berorientasi pada bagaimana meningkatkan
+                      indeks prestasi mahasiswa, menjadi kelompok riset
+                      mahasiswa untuk mendukung UNDIP sebagai
+                      <i>research university</i>.
+                    </p>
 
-	<!-- header -->
-	<!-- FINISH -->
-	<header class="headers" style="background-image: url(assets/images/jumbotron-profil-biro.jpg);">
-		<div class="container">
-			<div class="body__section text-center">
-				<h2>PROFIL</h2>
-				<p class="sub__title">Biro Teknik Lingkungan</p>
-			</div> <!-- end body section -->
-		</div> <!-- end container -->
-	</header> <!-- end header -->
+                    <!-- chief biro -->
+                    <div class="chief__biro">
+                      <h5 class="my__subttl">a. Ketua dan Wakil Ketua Biro</h5>
+                      <div class="row">
+                        <div class="col-lg-4 col-6">
+                          <div
+                            class="chief__img img__sec mb-3"
+                            style="background: url(assets/images/ketua.png)"
+                          ></div>
+                          <p class="fw-bold mb-2">Ketua KSI</p>
+                          <p class="mb-0">Ayunindya W. Putri H. (2019)</p>
+                        </div>
 
-	<!-- biro section -->
-	<div class="biro__section">
-		<div class="container">
-			<div class="body__section">
-				<div class="biro">
-					<!-- biro 1 -->
-					<div class="biro__content">
-						<div class="row">
-							<!-- left -->
-							<div class="col-md-8 col-sm-12">
-								<div class="pe-md-3">
-									<h3>1. Kelompok Studi Lingkungan</h3>
-									<p class="text-just">Kelompok Studi Lingkungan atau biasa disingkat KSL adalah suatu
-										perkumpulan para mahasiswa Teknik Lingkungan Universitas Diponegoro yang
-										memiliki jiwa cinta lingkungan yang kuat serta berkomitmen untuk menjadikan
-										lingkungan Indonesia ini menjadi lebih baik dan indah yang dimulai dari hal-hal
-										yang dasar di sekitar kampus, lalu membagikan ilmu yang dipunyai dan didapatkan
-										untuk masyarakat sekitar, serta berorientasi pada bagaimana meningkatkan indeks
-										prestasi mahasiswa, menjadi kelompok riset mahasiswa untuk mendukung UNDIP
-										sebagai <i>research university</i>.</p>
+                        <div class="col-lg-4 col-6">
+                          <div
+                            class="chief__img img__sec mb-3"
+                            style="background: url(assets/images/ketua.png)"
+                          ></div>
+                          <p class="fw-bold mb-2">Wakil Ketua KSI</p>
+                          <p class="mb-0">Farah Ardica C. (2019)</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end chief biro -->
 
-									<!-- chief biro -->
-									<div class="chief__biro">
-										<h5 class="my__subttl">a. Ketua dan Wakil Ketua Biro</h5>
-										<div class="row">
-											<div class="col-lg-4 col-6">
-												<div class="chief__img img__sec mb-3"
-													style="background: url(assets/images/ketua.png);"></div>
-												<p class="fw-bold mb-2">Ketua KSI</p>
-												<p class="mb-0">Ayunindya W. Putri H. (2019)</p>
-											</div>
+                    <!-- proker biro -->
+                    <div class="proker__biro">
+                      <h5 class="my__subttl">b. Program Kerja Unggulan</h5>
+                      <div id="ksl" class="owl-carousel owl-theme">
+                        <!-- proker biro1 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#ksl-1"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="ksl-1"
+                              >
+                                <span class="text-white">Enforce</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="ksl-1">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<div class="col-lg-4 col-6">
-												<div class="chief__img img__sec mb-3"
-													style="background: url(assets/images/ketua.png);"></div>
-												<p class="fw-bold mb-2">Wakil Ketua KSI</p>
-												<p class="mb-0">Farah Ardica C. (2019)</p>
-											</div>
-										</div>
-									</div> <!-- end chief biro -->
+                        <!-- proker biro2 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#ksl-2"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="ksl-2"
+                              >
+                                <span class="text-white">Prototype</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="ksl-2">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-									<!-- proker biro -->
-									<div class="proker__biro">
-										<h5 class="my__subttl">b. Program Kerja Unggulan</h5>
-										<div id="ksl" class="owl-carousel owl-theme">
-											<!-- proker biro1 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#ksl-1"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Enforce</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="ksl-1">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro3 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#ksl-3"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="ksl-3"
+                              >
+                                <span class="text-white">Sekolah Binaan</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="ksl-3">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<!-- proker biro2 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#ksl-2"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Prototype</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="ksl-2">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro4 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#ksl-4"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="ksl-4"
+                              >
+                                <span class="text-white">Field Trip</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="ksl-4">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<!-- proker biro3 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#ksl-3"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Sekolah Binaan</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="ksl-3">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro4 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#ksl-5"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="ksl-5"
+                              >
+                                <span class="text-white"
+                                  >Majalah Akhir Tahun</span
+                                >
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="ksl-5">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end proker biro -->
+                  </div>
+                </div>
+                <!-- end col left -->
 
-											<!-- proker biro4 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#ksl-4"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Field Trip</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="ksl-4">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                <!-- right -->
+                <div class="col-md-4 col-sm-12">
+                  <div class="ps-md-3">
+                    <img
+                      class="img__biro"
+                      src="assets/images/logo-ksl-fixing.png"
+                      alt="..."
+                    />
+                    <h5 class="my__subttl">c. Media Sosial</h5>
+                    <div class="icon__biro">
+                      <a href="#"><i class="fab fa-instagram-square"></i></a>
+                      <a href="#"><i class="fab fa-youtube-square"></i></a>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                      <a href="#"><i class="fab fa-twitter-square"></i></a>
+                      <a href="#"><i class="fab fa-facebook-square"></i></a>
+                      <a href="#"><i class="fas fa-globe"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end col right -->
+              </div>
+              <!-- end row -->
+            </div>
+            <!-- end biro 1 -->
 
-											<!-- proker biro4 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#ksl-5"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Majalah Akhir Tahun</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="ksl-5">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
-										</div>
-									</div> <!-- end proker biro -->
-								</div>
-							</div> <!-- end col left -->
+            <hr />
 
-							<!-- right -->
-							<div class="col-md-4 col-sm-12">
-								<div class="ps-md-3">
-									<img class="img__biro" src="assets/images/logo-ksl-fixing.png" alt="...">
-									<h5 class="my__subttl">c. Media Sosial</h5>
-									<div class="icon__biro">
-										<a href="#"><i class="fab fa-instagram-square"></i></a>
-										<a href="#"><i class="fab fa-youtube-square"></i></a>
-										<a href="#"><i class="fab fa-line"></i></a>
-										<a href="#"><i class="fab fa-twitter-square"></i></a>
-										<a href="#"><i class="fab fa-facebook-square"></i></a>
-										<a href="#"><i class="fas fa-globe"></i></a>
-									</div>
-								</div>
-							</div> <!-- end col right -->
-						</div> <!-- end row -->
-					</div> <!-- end biro 1 -->
+            <!-- biro 2 -->
+            <div class="biro__content">
+              <div class="row">
+                <!-- left -->
+                <div class="col-md-8 col-sm-12">
+                  <div class="pe-md-3">
+                    <h3>2. Ikatan Pecinta Alam Lingkungan</h3>
+                    <p class="text-just">
+                      Biro IPAL (Ikatan Pencinta Alam Lingkungan) merupakan biro
+                      di jurusan Teknik Lingkungan Universitas Diponegoro yang
+                      berdiri di bidang kepencinta alaman. berdiri pada tanggal
+                      11 November 2000 yang diprakarsai oleh Khusnul Sambodja.
+                      IPAL sendiri memiliki prinsip yaitu
+                      <strong>"Save Water Plant Trees"</strong>.
+                    </p>
 
-					<hr>
+                    <!-- chief biro -->
+                    <div class="chief__biro">
+                      <h5 class="my__subttl">a. Ketua dan Wakil Ketua Biro</h5>
+                      <div class="row">
+                        <div class="col-lg-4 col-6">
+                          <div
+                            class="chief__img img__sec mb-3"
+                            style="background: url(assets/images/ketua.png)"
+                          ></div>
+                          <p class="fw-bold mb-2">Ketua KSI</p>
+                          <p class="mb-0">Anisatul Fitria (2019)</p>
+                        </div>
 
-					<!-- biro 2 -->
-					<div class="biro__content">
-						<div class="row">
-							<!-- left -->
-							<div class="col-md-8 col-sm-12">
-								<div class="pe-md-3">
-									<h3>2. Ikatan Pecinta Alam Lingkungan</h3>
-									<p class="text-just">Biro IPAL (Ikatan Pencinta Alam Lingkungan) merupakan biro di
-										jurusan Teknik Lingkungan Universitas Diponegoro yang berdiri di bidang
-										kepencinta alaman. berdiri pada tanggal 11 November 2000 yang diprakarsai oleh
-										Khusnul Sambodja. IPAL sendiri memiliki prinsip yaitu <strong>"Save Water Plant
-											Trees"</strong>.</p>
+                        <div class="col-lg-4 col-6">
+                          <div
+                            class="chief__img img__sec mb-3"
+                            style="background: url(assets/images/ketua.png)"
+                          ></div>
+                          <p class="fw-bold mb-2">Wakil Ketua KSI</p>
+                          <p class="mb-0">Farid Ikhsanudin Irawan (2019)</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end chief biro -->
 
-									<!-- chief biro -->
-									<div class="chief__biro">
-										<h5 class="my__subttl">a. Ketua dan Wakil Ketua Biro</h5>
-										<div class="row">
-											<div class="col-lg-4 col-6">
-												<div class="chief__img img__sec mb-3"
-													style="background: url(assets/images/ketua.png);"></div>
-												<p class="fw-bold mb-2">Ketua KSI</p>
-												<p class="mb-0">Anisatul Fitria (2019)</p>
-											</div>
+                    <!-- proker biro -->
+                    <div class="proker__biro">
+                      <h5 class="my__subttl">b. Program Kerja Unggulan</h5>
+                      <div id="ipal" class="owl-carousel owl-theme">
+                        <!-- proker biro1 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#ipal-1"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="ipal-1"
+                              >
+                                <span class="text-white"
+                                  >IPAL Cinta Lingkungan</span
+                                >
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="ipal-1">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end proker biro -->
+                  </div>
+                </div>
+                <!-- end col left -->
 
-											<div class="col-lg-4 col-6">
-												<div class="chief__img img__sec mb-3"
-													style="background: url(assets/images/ketua.png);"></div>
-												<p class="fw-bold mb-2">Wakil Ketua KSI</p>
-												<p class="mb-0">Farid Ikhsanudin Irawan (2019)</p>
-											</div>
-										</div>
-									</div> <!-- end chief biro -->
+                <!-- right -->
+                <div class="col-md-4 col-sm-12">
+                  <div class="ps-md-3">
+                    <img
+                      class="img__biro"
+                      src="assets/images/logo-ipal-fixing.png"
+                      alt="..."
+                    />
+                    <h5 class="my__subttl">c. Media Sosial</h5>
+                    <div class="icon__biro">
+                      <a href="#"><i class="fab fa-instagram-square"></i></a>
+                      <a href="#"><i class="fab fa-youtube-square"></i></a>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end col right -->
+              </div>
+              <!-- end row -->
+            </div>
+            <!-- end biro 2 -->
 
-									<!-- proker biro -->
-									<div class="proker__biro">
-										<h5 class="my__subttl">b. Program Kerja Unggulan</h5>
-										<div id="ipal" class="owl-carousel owl-theme">
-											<!-- proker biro1 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#ipal-1"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">IPAL Cinta Lingkungan</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="ipal-1">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
-										</div>
-									</div> <!-- end proker biro -->
-								</div>
-							</div> <!-- end col left -->
+            <hr />
 
-							<!-- right -->
-							<div class="col-md-4 col-sm-12">
-								<div class="ps-md-3">
-									<img class="img__biro" src="assets/images/logo-ipal-fixing.png" alt="...">
-									<h5 class="my__subttl">c. Media Sosial</h5>
-									<div class="icon__biro">
-										<a href="#"><i class="fab fa-instagram-square"></i></a>
-										<a href="#"><i class="fab fa-youtube-square"></i></a>
-										<a href="#"><i class="fab fa-line"></i></a>
-									</div>
-								</div>
-							</div> <!-- end col right -->
-						</div> <!-- end row -->
-					</div> <!-- end biro 2 -->
+            <!-- biro 3 -->
+            <div class="biro__content">
+              <div class="row">
+                <!-- left -->
+                <div class="col-md-8 col-sm-12">
+                  <div class="pe-md-3">
+                    <h3>3. Hayatun Nufus</h3>
+                    <p class="text-just">
+                      HN (Hayatun Nufus) merupakan Biro Kerohanian Islam Teknik
+                      Lingkungan yang bergerak dalam lembaga dakwah kampus.
+                    </p>
 
-					<hr>
+                    <!-- chief biro -->
+                    <div class="chief__biro">
+                      <h5 class="my__subttl">a. Ketua dan Wakil Ketua Biro</h5>
+                      <div class="row">
+                        <div class="col-lg-4 col-6">
+                          <div
+                            class="chief__img img__sec mb-3"
+                            style="background: url(assets/images/ketua.png)"
+                          ></div>
+                          <p class="fw-bold mb-2">Ketua KSI</p>
+                          <p class="mb-0">Fakhri Aulia Azmi Razzy (2019)</p>
+                        </div>
 
-					<!-- biro 3 -->
-					<div class="biro__content">
-						<div class="row">
-							<!-- left -->
-							<div class="col-md-8 col-sm-12">
-								<div class="pe-md-3">
-									<h3>3. Hayatun Nufus</h3>
-									<p class="text-just">HN (Hayatun Nufus) merupakan Biro Kerohanian Islam Teknik
-										Lingkungan yang bergerak dalam lembaga dakwah kampus.</p>
+                        <div class="col-lg-4 col-6">
+                          <div
+                            class="chief__img img__sec mb-3"
+                            style="background: url(assets/images/ketua.png)"
+                          ></div>
+                          <p class="fw-bold mb-2">Wakil Ketua KSI</p>
+                          <p class="mb-0">Anas Fikri Muliawan (2019)</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end chief biro -->
 
-									<!-- chief biro -->
-									<div class="chief__biro">
-										<h5 class="my__subttl">a. Ketua dan Wakil Ketua Biro</h5>
-										<div class="row">
-											<div class="col-lg-4 col-6">
-												<div class="chief__img img__sec mb-3"
-													style="background: url(assets/images/ketua.png);"></div>
-												<p class="fw-bold mb-2">Ketua KSI</p>
-												<p class="mb-0">Fakhri Aulia Azmi Razzy (2019)</p>
-											</div>
+                    <!-- proker biro -->
+                    <div class="proker__biro">
+                      <h5 class="my__subttl">b. Program Kerja Unggulan</h5>
+                      <div id="hn" class="owl-carousel owl-theme">
+                        <!-- proker biro1 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-1"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-1"
+                              >
+                                <span class="text-white">Training Rohis 1</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-1">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<div class="col-lg-4 col-6">
-												<div class="chief__img img__sec mb-3"
-													style="background: url(assets/images/ketua.png);"></div>
-												<p class="fw-bold mb-2">Wakil Ketua KSI</p>
-												<p class="mb-0">Anas Fikri Muliawan (2019)</p>
-											</div>
-										</div>
-									</div> <!-- end chief biro -->
+                        <!-- proker biro2 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-2"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-2"
+                              >
+                                <span class="text-white">Madrasah Rohis 1</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-2">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-									<!-- proker biro -->
-									<div class="proker__biro">
-										<h5 class="my__subttl">b. Program Kerja Unggulan</h5>
-										<div id="hn" class="owl-carousel owl-theme">
-											<!-- proker biro1 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-1"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Training Rohis 1</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-1">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro3 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-3"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-3"
+                              >
+                                <span class="text-white"
+                                  >Grand Opening Mentoring</span
+                                >
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-3">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<!-- proker biro2 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-2"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Madrasah Rohis 1</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-2">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro4 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-4"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-4"
+                              >
+                                <span class="text-white"
+                                  >Kegiatan Mentoring</span
+                                >
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-4">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
+                        <!-- proker biro5 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-5"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-5"
+                              >
+                                <span class="text-white">Kajian Annisa</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-5">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<!-- proker biro3 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-3"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Grand Opening Mentoring</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-3">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro6 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-6"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-6"
+                              >
+                                <span class="text-white">Upgrading</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-6">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
 
-											<!-- proker biro4 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-4"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Kegiatan Mentoring</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-4">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                        <!-- proker biro7 -->
+                        <div class="mb-3">
+                          <div class="card__proker">
+                            <div class="title__proker">
+                              <a
+                                class="ttl"
+                                data-bs-toggle="collapse"
+                                href="#hn-7"
+                                role="button"
+                                aria-expanded="false"
+                                aria-controls="hn-7"
+                              >
+                                <span class="text-white">Roadshow</span>
+                                <i
+                                  class="fi fi-br-plus-small text-white d-flex align-items-center"
+                                ></i>
+                              </a>
+                              <!-- end ttl -->
+                            </div>
+                            <!-- ttle proker -->
+                            <div class="collapse" id="hn-7">
+                              <div class="main__proker">
+                                <p>
+                                  Lorem ipsum dolor sit, amet consectetur
+                                  adipisicing elit. Saepe non quibusdam autem
+                                  nobis, vitae temporibus error pariatur
+                                  reprehenderit sed est. Odio natus, dicta at
+                                  enim quo mollitia excepturi minima voluptatem!
+                                </p>
+                              </div>
+                              <!-- end main proker -->
+                            </div>
+                            <!-- collapse -->
+                          </div>
+                          <!-- end card proker -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end proker biro -->
+                  </div>
+                </div>
+                <!-- end col left -->
 
-											<!-- proker biro5 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-5"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Kajian Annisa</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-5">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+                <!-- right -->
+                <div class="col-md-4 col-sm-12">
+                  <div class="ps-md-3">
+                    <img
+                      class="img__biro"
+                      src="assets/images/logo-hn-fixing.png"
+                      alt="..."
+                    />
+                    <h5 class="my__subttl">c. Media Sosial</h5>
+                    <div class="icon__biro">
+                      <a href="#"><i class="fab fa-instagram-square"></i></a>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end col right -->
+              </div>
+              <!-- end row -->
+            </div>
+            <!-- end biro 3 -->
+          </div>
+          <!-- end biro -->
+        </div>
+        <!-- end body section -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end biro section -->
 
-											<!-- proker biro6 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-6"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Upgrading</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-6">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+    <!-- footer -->
+    <!-- FINISH -->
+    <footer>
+      <div class="container">
+        <!-- left footer -->
+        <div class="left__footer">
+          <!-- lef footer image -->
+          <div class="left__img">
+            <img
+              src="assets/images/Logo-hmtl-full.png"
+              alt="alter-logo-hmtl-full"
+            />
+          </div>
+          <!-- end lef footer image -->
+          <!-- left footer content -->
+          <div class="left__content">
+            <a href="index.html"
+              >Himpunan Mahasiswa<br />Teknik Lingkungan UNDIP</a
+            >
+            <p>Kabinet Askara Cita</p>
+            <p>
+              Gedung Kuliah Bersama Lantai 3<br />Jl. Prof Soedarto, S.H
+              Tembalang Semarang 50275
+            </p>
+          </div>
+          <!-- end left footer content -->
+        </div>
+        <!-- end left footer -->
 
-											<!-- proker biro7 -->
-											<div class="mb-3">
-												<div class="card__proker">
-													<div class="title__proker">
-														<a class="ttl" data-bs-toggle="collapse" href="#hn-7"
-															role="button" aria-expanded="false"
-															aria-controls="collapseExample">
-															<span class="text-white">Roadshow</span>
-															<i
-																class="fi fi-br-plus-small text-white d-flex align-items-center"></i>
-														</a> <!-- end ttl -->
-													</div> <!-- ttle proker -->
-													<div class="collapse" id="hn-7">
-														<div class="main__proker">
-															<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-																Saepe non quibusdam autem nobis, vitae temporibus error
-																pariatur reprehenderit sed est. Odio natus, dicta at
-																enim quo mollitia excepturi minima voluptatem!</p>
-														</div> <!-- end main proker -->
-													</div> <!-- collapse -->
-												</div> <!-- end card proker -->
-											</div>
+        <!-- right footer -->
+        <div class="right__footer">
+          <!-- quick link -->
+          <div class="quick__links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="berita.html">Berita</a></li>
+              <li><a href="kalender.html">Kalender</a></li>
+              <li><a href="arsip.html">Arsip</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+          </div>
+          <!-- end quick link -->
+          <!-- contact us -->
+          <div class="contact__us">
+            <h5>Contact Us</h5>
+            <ul>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6282314497878&text&app_absent=0"
+                  target="_blank"
+                  >+62 823 1449 7878 (Humas)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6282378781414&text&app_absent=0"
+                  target="_blank"
+                  >+62 823 7878 1414 (Humas)</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@hmtlundip.org" target="_blank"
+                  >info@hmtlundip.org</a
+                >
+              </li>
+              <li>
+                <a href="mailto:hmtlundip@student.undip.ac.id" target="_blank"
+                  >hmtlundip@student.undip.ac.id</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- end contact us -->
+          <!-- social connect -->
+          <div class="social__connect">
+            <h5>Social Connect</h5>
+            <ul>
+              <li>
+                <a href="https://lin.ee/1I0669e" target="_blank"
+                  ><i class="icofont-line"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://bit.ly/LinkedinHMTLUNDIP" target="_blank"
+                  ><i class="icofont-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCTaPUsgMZ7zhE7ppnrI3iAA"
+                  target="_blank"
+                  ><i class="icofont-youtube-play"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://open.spotify.com/show/1QYjVqMmu31mIS2T2WY555?si=do6hUAx6RN6pVco9I69kZw"
+                  target="_blank"
+                  ><i class="icofont-spotify"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/hmtlundip/" target="_blank"
+                  ><i class="fab fa-instagram-square"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- end social connect -->
+        </div>
+        <!-- end right footer -->
+      </div>
+      <!-- end container -->
 
-										</div>
-									</div> <!-- end proker biro -->
-								</div>
-							</div> <!-- end col left -->
+      <!-- bottom footer -->
+      <div class="bottom__footer text-center">
+        <p>
+          Copyright &copy; 2021 | Himpunan Mahasiswa Teknik Lingkungan
+          Universitas Diponegoro
+        </p>
+      </div>
+      <!-- end bottom footer -->
+    </footer>
+    <!-- end footer -->
 
-							<!-- right -->
-							<div class="col-md-4 col-sm-12">
-								<div class="ps-md-3">
-									<img class="img__biro" src="assets/images/logo-hn-fixing.png" alt="...">
-									<h5 class="my__subttl">c. Media Sosial</h5>
-									<div class="icon__biro">
-										<a href="#"><i class="fab fa-instagram-square"></i></a>
-										<a href="#"><i class="fab fa-line"></i></a>
-									</div>
-								</div>
-							</div> <!-- end col right -->
-						</div> <!-- end row -->
-					</div> <!-- end biro 3 -->
+    <!-- search section offcanvas -->
+    <!-- FINISH -->
+    <div
+      class="offcanvas search__section offcanvas-top"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <!-- offcanvas body -->
+      <div
+        class="search__body offcanvas-body"
+        id="offcanvasWithBothOptionsLabel"
+      >
+        <div class="container">
+          <p class="search__font">Search for something</p>
+          <form class="search__form">
+            <input
+              type="search"
+              class="search__field"
+              placeholder="Keywords"
+              required
+            />
+            <input type="submit" class="search__submit" value="Search" />
+          </form>
+        </div>
+        <!-- end of container -->
+      </div>
+      <!-- end of offcanvas-body -->
+    </div>
+    <!-- end of search section offcanvas -->
 
-				</div> <!-- end biro -->
-			</div> <!-- end body section -->
-		</div> <!-- end container -->
-	</div> <!-- end biro section -->
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jquery 3.5.1 Gcdn scripts -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- bootstrap scripts -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- owl carousel min scripts -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js"
+      integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- medium scripts -->
 
-	<!-- footer -->
-	<!-- FINISH -->
-	<footer>
-		<div class="container">
-			<!-- left footer -->
-			<div class="left__footer">
-				<!-- lef footer image -->
-				<div class="left__img">
-					<img src="assets/images/Logo-hmtl-full.png" alt="alter-logo-hmtl-full">
-				</div> <!-- end lef footer image -->
-				<!-- left footer content -->
-				<div class="left__content">
-					<a href="index.html">Himpunan Mahasiswa<br>Teknik Lingkungan UNDIP</a>
-					<p>Kabinet Askara Cita</p>
-					<p>Gedung Kuliah Bersama Lantai 3<br>Jl. Prof Soedarto, S.H Tembalang Semarang 50275</p>
-				</div> <!-- end left footer content -->
-			</div> <!-- end left footer -->
-
-			<!-- right footer -->
-			<div class="right__footer">
-				<!-- quick link -->
-				<div class="quick__links">
-					<h5>Quick Links</h5>
-					<ul>
-						<li><a href="index.html">Beranda</a></li>
-						<li><a href="profil.html">Profil</a></li>
-						<li><a href="berita.html">Berita</a></li>
-						<li><a href="kalender.html">Kalender</a></li>
-						<li><a href="arsip.html">Arsip</a></li>
-						<li><a href="kontak.html">Kontak</a></li>
-					</ul>
-				</div> <!-- end quick link -->
-				<!-- contact us -->
-				<div class="contact__us">
-					<h5>Contact Us</h5>
-					<ul>
-						<li><a href="https://api.whatsapp.com/send/?phone=6282314497878&text&app_absent=0"
-								target="_blank">+62 823 1449
-								7878 (Humas)</a></li>
-						<li><a href="https://api.whatsapp.com/send/?phone=6282378781414&text&app_absent=0"
-								target="_blank">+62 823 7878
-								1414 (Humas)</a></li>
-						<li><a href="mailto:info@hmtlundip.org" target="_blank">info@hmtlundip.org</a></li>
-						<li><a href="mailto:hmtlundip@student.undip.ac.id"
-								target="_blank">hmtlundip@student.undip.ac.id</a></li>
-					</ul>
-				</div> <!-- end contact us -->
-				<!-- social connect -->
-				<div class="social__connect">
-					<h5>Social Connect</h5>
-					<ul>
-						<li><a href="https://lin.ee/1I0669e" target="_blank"><i class="icofont-line"></i></a></li>
-						<li><a href="https://bit.ly/LinkedinHMTLUNDIP" target="_blank"><i
-									class="icofont-linkedin"></i></a>
-						</li>
-						<li><a href="https://www.youtube.com/channel/UCTaPUsgMZ7zhE7ppnrI3iAA" target="_blank"><i
-									class="icofont-youtube-play"></i></a></li>
-						<li><a href="https://open.spotify.com/show/1QYjVqMmu31mIS2T2WY555?si=do6hUAx6RN6pVco9I69kZw"
-								target="_blank"><i class="icofont-spotify"></i></a></li>
-						<li><a href="https://www.instagram.com/hmtlundip/" target="_blank"><i
-									class="fab fa-instagram-square"></i></a></li>
-					</ul>
-				</div> <!-- end social connect -->
-			</div> <!-- end right footer -->
-		</div> <!-- end container -->
-
-		<!-- bottom footer -->
-		<div class="bottom__footer text-center">
-			<p>Copyright &copy; 2021 | Himpunan Mahasiswa Teknik Lingkungan Universitas Diponegoro</p>
-		</div> <!-- end bottom footer -->
-	</footer> <!-- end footer -->
-
-	<!-- search section offcanvas -->
-	<!-- FINISH -->
-	<div class="offcanvas search__section offcanvas-top" data-bs-scroll="true" tabindex="-1"
-		id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-		<!-- offcanvas body -->
-		<div class="search__body offcanvas-body">
-			<div class="container">
-				<p class="search__font">Search for something</p>
-				<form action="" class="search__form">
-					<input type="search" class="search__field" placeholder="Keywords" required>
-					<input type="submit" class="search__submit" value="Search">
-				</form>
-			</div> <!-- end of container -->
-		</div> <!-- end of offcanvas-body -->
-	</div> <!-- end of search section offcanvas -->
-
-
-	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- jquery 3.5.1 Gcdn scripts -->
-	<script src="assets/js/bootstrap.bundle.js"></script> <!-- bootstrap scripts -->
-	<script src="assets/js/owl.carousel.min.js"></script> <!-- owl carousel min scripts -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js"
-		integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- medium scripts -->
-
-	<script src="assets/js/scripts.js"></script> <!-- Custom scripts -->
-</body>
-
+    <script src="assets/js/scripts.js"></script>
+    <!-- Custom scripts -->
+  </body>
 </html>

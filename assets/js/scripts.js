@@ -312,7 +312,7 @@ $(document).ready(function () {
 
 // ukm - foto ukm - ukm__carousel
 $(document).ready(function () {
-  $(".owl-carousel#ukm__carousel").owlCarousel({
+  $(".owl-carousel.ukm__carousel").owlCarousel({
     loop: true,
     margin: 16,
     nav: false,
