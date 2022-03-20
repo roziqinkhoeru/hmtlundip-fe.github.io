@@ -23,6 +23,8 @@ HMTL Diponegoro University Official Website project. Contains information about 
 ## 💡 Features
 
 - Responsives all devices
+- Includes Admin dashboard
+- Easy to use
 
 ## 🎨 UI Design
 
