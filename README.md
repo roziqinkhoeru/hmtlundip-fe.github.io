@@ -1,6 +1,6 @@
 <br/>
 <div align="center">  
-  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/hmtlundip-fe.github.io/main/assets/images/Logo-hmtl-full.png?token=GHSAT0AAAAAABSA36XC5ZE5IF7TRYS3G3AYYR7YS7Q" width=270/></p>
+  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/hmtlundip-fe.github.io/main/assets/images/logo-hmtl.png?token=GHSAT0AAAAAABSA36XDBICQLUM4SUIVFD64YTSBIGQ" width=270/></p>
   <p><strong>Front End</strong> HMTL UNDIP Protfolio Website</p>
 </div>
 <br/>
@@ -25,10 +25,6 @@ HMTL Diponegoro University Official Website project. Contains information about 
 - Responsives all devices
 - Includes Admin dashboard
 - Easy to use
-
-## 🎨 UI Design
-
-https://www.figma.com/file/4WTx2c8GIjcirXbxgXEnvh/HMTI-Web-Layout?node-id=0%3A1
 
 ## 👱‍♂️ Authors
 

@@ -169,6 +169,10 @@ h6 {
   padding-bottom: 0;
 }
 
+.navbar.navbar.nav__pt__pb .container-fluid {
+  max-width: 90rem;
+}
+
 .navbar.bg-nav {
   background-color: var(--white);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -2314,7 +2318,6 @@ header .body__section {
   }
 
   .navbar.nav__pt__pb {
-    max-width: 1440px;
     margin: auto;
   }
 }
