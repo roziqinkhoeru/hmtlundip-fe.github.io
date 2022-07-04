@@ -1,6 +1,5 @@
 <br/>
 <div align="center">  
-  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/hmtlundip-fe.github.io/main/assets/images/logo-hmtl.png" width=270/></p>
   <p><strong>Front End</strong> HMTL UNDIP Protfolio Website</p>
 </div>
 <br/>
