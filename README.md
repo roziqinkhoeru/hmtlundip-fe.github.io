@@ -1,6 +1,6 @@
 <br/>
 <div align="center">  
-  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/hmtlundip-fe.github.io/main/assets/images/logo-hmtl.png?token=GHSAT0AAAAAABSA36XDBICQLUM4SUIVFD64YTSBIGQ" width=270/></p>
+  <p><img src="https://raw.githubusercontent.com/roziqinkhoeru/hmtlundip-fe.github.io/main/assets/images/logo-hmtl.png" width=270/></p>
   <p><strong>Front End</strong> HMTL UNDIP Protfolio Website</p>
 </div>
 <br/>
@@ -11,14 +11,14 @@ HMTL Diponegoro University Official Website project. Contains information about 
 
 ## 📛 Badges
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootsrtap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![CodeIgniter](https://img.shields.io/badge/Codeigniter-E34F26?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootsrtap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![CodeIgniter](https://img.shields.io/badge/Codeigniter-E34F26?style=flat&logo=codeigniter&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white)
 
 ## 💡 Features
 
